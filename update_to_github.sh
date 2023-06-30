@@ -10,3 +10,7 @@ echo ----------push---------------
 echo ----------status-------------
 git status
 echo ----------done-------------------
+
+
+# todo:
+# the commit msg should input from .sh para use "msgs..." to send to .sh file 
