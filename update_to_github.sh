@@ -9,4 +9,4 @@ echo ----------push---------------
 git push -u origin master
 echo ----------status-------------
 git status
-echo -----------------------------
+echo ----------done-------------------
