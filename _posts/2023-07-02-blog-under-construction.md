@@ -3,6 +3,11 @@ layout: post
 title:  "blog-under-construction"
 categories: [init Blog-website]
 ---
+## One day, I\`ll become the master of CS  enginerring field 
+
+My ultimate goal is to excel in the field of computer science engineering and create innovative solutions for the world.
+What an approach to Communism!
+
 **I have so many notes locally .
  eager to upload to The Internet~
 That will be a so cool thing:
