@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "blog-under-construction"
-categories: [CS fundamentals]
+categories: [init Blog-website]
 ---
 
 I\`m learning the style same like https://xxchan.me/ her blog-website.
 
-Todos: as  priority
+### Todos: as  priority
 
 **necessary content display**
 
@@ -19,6 +19,7 @@ xxchen use this in html tag: \<img src = "https://user-images.githubusercontent.
 directory should auto generate from .md file 
 
 after finish this, I can upload all my blogs and pictures within.
+
 **Looking forwarding that~**
 
 **optimize**
