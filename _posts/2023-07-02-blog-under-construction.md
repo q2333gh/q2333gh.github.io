@@ -3,16 +3,17 @@ layout: post
 title:  "blog-under-construction"
 categories: [init Blog-website]
 ---
-**I have so many notes locally . eager to upload to The Internet~
+**I have so many notes locally .
+ eager to upload to The Internet~
 That will be a so cool thing:
   the notes include:
-    CS tech, society,humanity,personal growth,history, and all the intersting facts!**
+    CS tech, society,humanity,personal growth,history, and all the intersting facts and thoughts worth to check it out!**
 
 Once these notes is tracked by git , that will be a great thing~ I love it !
 
 
 
-I\`m learning the style same like https://xxchan.me/ her blog-website.
+I\`m learning the style same like https://xxchan.me/ her blog-website. (from the best teacher~)
 
 ### Todos: as  priority
 
