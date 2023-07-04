@@ -1,3 +1,7 @@
+---
+layout: post
+title:  "My outlook on values"
+---
 
 ## 一期一会
 [「一期一会」是一个日本的四字熟语，表示珍惜每一次不可重复的时刻和相遇的文化理念。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[2](https://www.japandict.com/%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A) [这个词源于茶道的用语，意思是亭主和客人要以一期一会的精神，用真心对待每一次泡茶和品茶的过程。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[3](https://english.stackexchange.com/questions/248721/is-there-english-counterpart-to-japanese-proverb-%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A-meaning-cherish-once) [英语中可以翻译为「for this time only」或「once in a lifetime」。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)
