@@ -3,7 +3,9 @@ layout: post
 title:  "blog-under-construction"
 categories: [init Blog-website]
 ---
-## One day, I\`ll become the master of CS  enginerring field 
+## 
+
+One day, I\`ll become the master of CS enginerring field. 
 
 My ultimate goal is to excel in the field of computer science engineering and create innovative solutions for the world.
 What an approach to Communism!
@@ -20,7 +22,7 @@ Once these notes is tracked by git , that will be a great thing~ I love it !
 
 I\`m learning the style same like https://xxchan.me/ her blog-website. (from the best teacher~)
 
-### Todos: as  priority
+### Todos: as priority
 
 **necessary content display**
 
