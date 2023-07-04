@@ -1,0 +1,77 @@
+
+## 一期一会
+[「一期一会」是一个日本的四字熟语，表示珍惜每一次不可重复的时刻和相遇的文化理念。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[2](https://www.japandict.com/%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A) [这个词源于茶道的用语，意思是亭主和客人要以一期一会的精神，用真心对待每一次泡茶和品茶的过程。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[3](https://english.stackexchange.com/questions/248721/is-there-english-counterpart-to-japanese-proverb-%E4%B8%80%E6%9C%9F%E4%B8%80%E4%BC%9A-meaning-cherish-once) [英语中可以翻译为「for this time only」或「once in a lifetime」。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)
+
+「一期一会」的每个字都有特殊的含义：
+
+- [「一期」是一个佛教用语，指从出生到死亡的一生，也就是人的寿命。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)
+- [「一会」是一个汉语词汇，指一次见面或交流，也就是人与人之间的相遇。](https://www.italki.com/en/post/question-35833)[4](https://www.italki.com/en/post/question-35833)
+- 「一」字重复两次，表示强调和唯一性，意思是这样的时刻和相遇只有这一次，不会再有第二次。
+- 「会」字在日语中读作「え」（e），与「絵」（e，画）同音，暗示了茶道中常用的挂画（掛物）和书画（書画）的艺术元素。
+
+[综上所述，「一期一会」可以理解为「在有限的生命中，珍惜每一次不可复制的相遇和体验」。这个词也与禅宗佛教和无常观念有关，提醒人们要活在当下，不要留恋过去或担忧未来。](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)[1](https://en.wikipedia.org/wiki/Ichi-go_ichi-e)
+
+*
+通俗一点，就是一次把事情做对。
+真心一点，就是对做的每一颗芯片，你要用心去爱，爱不是错过了才追悔莫及，当你觉得你不能放弃的时候，你就应该大声喊出来。爱绝不仅仅是满足一下项目要求的Checklist，其实完美的爱情故事在我们内心都存在，只是迫于周边（可恶的项目经理和QA）的压力常常选择了苟且。但回望过去，一颗大芯片的开发时间是三年，以我究其十年时间最多也就经历四个大项目（兼职的另算），所以我引用了一期一会这个词，如果我们能够把每一个芯片当成这一生唯一的一次相遇（实际上也是），每一次经历都是人生中独一无二的记忆，把当下的时光看做不会再来，尽其可能表达自己内心最大的诚意，也许故事的结尾就能少一点遗憾了。
+
+我是一个念旧的人，在我桌面摆放了我经历过的所有芯片，但我偶尔摩挲其中的时候，总能回想起当年的同伴和故事，那些嬉笑装逼和酩酊大醉，希望我老去的时候，还能记起。 
+*
+@ref  
+作者：夏晶晶  
+链接：https://zhuanlan.zhihu.com/p/600264179  
+
+
+## 求其上得其中
+
+
+
+> **《大学》：致知在格物，物格而后知至**
+
+这是修身治国平天下的前一句，事物在矛盾纠缠之中，总会向着其最本质的路径前进。想要推动也罢、修正也罢，甚至使袢子也罢，你终须要多理解技术的一些本质，得到一些基本的判断。摩尔定律也罢、软硬件协同也罢、AI也罢，如朱熹所说，一草一木，皆涵至理，若能从多种角度寻找不同事物之间的连接和关系，一旦能豁然贯通，则能够用更加简单、抽象、结构化地去看待和理解。以至于我发现越倾向于深入，则会越发站于事物的中心位，也越发容易理解他人的视角或团结他人（以理服人）。
+
+经验来讲，多做做实践，想起来的时候把课本翻出来再读一遍，不妨多做一做一些技术之外有趣的事情，触类旁通，而且其中往往还会伴随一些额外的收益，那某些看着无用的事也会让人觉得人间值得
+
+作者：夏晶晶  
+链接：https://zhuanlan.zhihu.com/p/600264179  
+
+
+
+
+from:高效能人士的七个习惯(modifyed)
+## 习惯一：积极主动（BE PROACTIVE）
+积极主动即采取主动，为自己过去、现在及未来的行为负责，并**依据原
+则及价值观，而非情绪或外在环境来下决定**。积极主动的人是改变的催生
+者，他们摒弃被动的受害者角色，不怨天尤人，发挥了人类四项独特的禀赋
+——自我意识、良知、想象力和独立意志，同时以由内而外的方式来创造改
+变，积极面对一切。他们选择创造自己的人生，这也是每个人最基本的决
+定。
+1.建立自己的原则和价值观,写下.
+2.察觉到重要事情是否按照价值观在执行?
+
+
+## 习惯二：以终为始（BEGIN WITH THE END IN MIND）
+所有事物都经过两次的创造——先是在脑海里酝酿，其次才是实质的创
+造。个人、家庭、团队和组织在做任何计划时，均先拟出愿景和目标，并据
+此塑造未来，全心投入自己最重视的原则、价值观、关系及目标。对个人、
+家庭或组织而言，使命宣言可以说是愿景的最高形式，它是根本的决策，主
+宰了所有其他决定。领导工作的核心，就是基于共有的使命、愿景和价值
+观，创造出一个文化。
+1.即基于价值观拟定的计划,并在过程中认可每件事情
+
+
+
+我在某段文字写下自己最 afraid of 的事,现在总是想不起来,但是意识到了很重要,
+对价值观有fundamental impact.寻找他,并迭代价值观吧.
+
+## Continuous divide and conquer
+
+In nature ,things won\`t just work some suddenly,
+You set up a goal , then you plan the path,
+when you exec the path, you need to refine it to become more smooth,
+
+like a rising curve in coordinate system, you need to derivate it again and again
+to see the details and refine it .
+
+so eventually this macro curve may look like this:
+![[Pasted image 20230704195743.png]]
