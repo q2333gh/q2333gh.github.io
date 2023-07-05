@@ -60,4 +60,9 @@ left  personal info , right article directory
 shou be more like 15 will be prefer
 
 
+## useful data collectings:
+1.add visitors record,
+2.free to leave a msg.
+
+
 
