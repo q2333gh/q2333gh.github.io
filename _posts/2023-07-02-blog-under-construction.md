@@ -5,9 +5,9 @@ categories: [init Blog-website]
 ---
 ## 
 
-One day, I\`ll become the master of CS enginerring field. 
+One day, I\`ll become the master of CS enginerring field!… or at least, that’s what I keep telling my computer.” 😄 
 
-My ultimate goal is to excel in the field of computer science engineering and create innovative solutions for the world.
+My ultimate goal is to excel in the field of computer science engineering and create innovative solutions for the world ,then, I’ll finally be able to fix my grandma’s computer.” 😂
 What an approach to Communism!
 
 **I have so many notes locally .
@@ -36,7 +36,6 @@ directory should auto generate from .md file
 
 after finish this, I can upload all my blogs and pictures within.
 
-**Looking forwarding that~**
 
 **optimize**
 3.fonts,both eng and chs
