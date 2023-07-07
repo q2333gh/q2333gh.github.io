@@ -79,3 +79,71 @@ to see the details and refine it .
 
 so eventually this macro curve may look like this:
 ![[Pasted image 20230704195743.png]]
+concious mind mode: capable following instructions
+unconcius mode : automatic , fast  
+how to build muscle mem for work?
+make work easier .
+practice makes it easier and easier 
+remind CS61B that dancing game man .
+
+**thinking takes efforts, fghting through confusion**
+
+![fluent](image.png)
+
+
+
+
+
+##  如何明确目标并保持动力
+scrath from 老石谈芯 https://www.bilibili.com/video/BV1c5411V72a/?spm_id_from=trigger_reload&vd_source=d074d0576b6cbd56f8b807d99f34ed18
+
+
+1. 每日有清单,列出最重要的一两项
+2. 剩下的杂项需要做,放到一起去解决
+
+**不努力的时候咋办?** 
+想想人医生的工作:
+8点开始接门诊 一直到下午6点 接了100个不同情况复杂的病例
+然后6点整理病例,准备手术,做科研,有时还要值夜班.
+对精神和体力是极大挑战. 
+特别是手术日工作强度大到难以想象
+你不累吗不枯燥吗?你觉得她会怎么回答呢
+
+相比程序员;
+能做着自己喜欢的工作,有吃有喝,累了可以休息,还能一边工作一边听音乐,
+真的要去想枯燥,乏味,辛苦的理由吗?
+
+提高效率的目的只是为了更轻松的生活
+并由此创造更多自由的精神思考空间
+
+可以在晚上想好明天要做什么,如果一早来想的话可能忘记一些
+
+### 做笔记的一些目的
+from: https://youtu.be/iYb3O2MockQ
+1.**这个笔记会在未来什么时候用上?**
+
+2.笔记是一种注意力投资, 注意ROI Return Of Investment
+ROA Return Of Attention
+
+3.个人知识库
+
+合理分配时间和精神
+精神是仅次于时间的第二资源
+
+以行动为导向来分类笔记PARA
+project 对现在的事项有帮助
+area 对长期有帮助 如人际关系,身体健康,财务
+resource 未来可能有用的资料,在未来才会产生行动的
+archive 存档的
+
+另外需要Distill 精炼,也是Take Home Message
+目的是 快速掌握重点
+从而不浪费收集整理资料花费的时间
+实现:Progrrasive Summarization
+阶层式摘要
+即知道重点,又不
+ 
+
+
+
+

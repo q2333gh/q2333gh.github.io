@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Communism.md",
+                "file": "2023-07-03-SpringCloud.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Communism.md",
+                "file": "2023-07-03-SpringCloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Communism.md",
+                "file": "2023-07-03-SpringCloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Communism.md"
+                "file": "2023-07-03-SpringCloud.md"
               }
             }
           }
@@ -138,27 +138,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "6520701848d41190",
   "lastOpenFiles": [
+    "在线学习平台-BS架构.md",
+    "assets/Pasted image 20230706180527.png",
+    "2023-06-23-My outlook  on values.md",
+    "assets/Pasted image 20230706172355.png",
+    "2023-06-25-Communism.md",
+    "2023-06-26-Entropy__The Most Misunderstood Concept in Physics.md",
+    "2023-06-29-hello-world.md",
+    "2023-06-30-Live with difficult and fear.md",
+    "2023-06-30-The-Pragmatic-Programmer.md",
+    "2023-06-30-日清周结.md",
+    "2023-07-01-CN.md",
     "2023-07-02-blog-under-construction.md",
+    "Pasted image 20230705143434.png",
     "Communism.md",
     "My outlook  on values.md",
     "Entropy__The Most Misunderstood Concept in Physics.md",
     "Pasted image 20230704195743.png",
-    "2023-07-01-CN.md",
     "Pasted image 20230703141047.png",
     "Pasted image 20230703141056.png",
     "v2-37d02a7ebe6815ca975aa3641f45d6db_1440w.webp",
-    "2023-06-30-日清周结.md",
-    "2023-06-30-Live with difficult and fear.md",
     "日清周结.md",
     "Live with difficult and fear.md"
   ]
