@@ -146,4 +146,24 @@ archive 存档的
 
 
 
+One day, I\`ll become the master of CS enginerring field!… or at least, that’s what I keep telling my computer.” 😄 
+
+My ultimate goal is to excel in the field of computer science engineering and create innovative solutions for the world ,then, I’ll finally be able to fix my grandma’s computer.” 😂
+
+What an approach to Communism!
+
+**I have so many notes locally .
+ eager to upload to The Internet~
+That will be a so cool thing:
+  the notes include:
+    CS tech, society,humanity,personal growth,history, and all the intersting facts and thoughts worth to check it out!**
+
+Once these notes is tracked by git , that will be a great thing~ I love it !
+
+
+
+I\`m learning the style same like https://xxchan.me/ her blog-website. (from the best teacher~) 
+
+
+
 

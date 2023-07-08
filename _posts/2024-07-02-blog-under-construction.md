@@ -3,27 +3,7 @@ layout: post
 title:  "blog-under-construction"
 categories: [init Blog-website]
 ---
-## 
-
-One day, I\`ll become the master of CS enginerring field!… or at least, that’s what I keep telling my computer.” 😄 
-
-My ultimate goal is to excel in the field of computer science engineering and create innovative solutions for the world ,then, I’ll finally be able to fix my grandma’s computer.” 😂
-
-What an approach to Communism!
-
-**I have so many notes locally .
- eager to upload to The Internet~
-That will be a so cool thing:
-  the notes include:
-    CS tech, society,humanity,personal growth,history, and all the intersting facts and thoughts worth to check it out!**
-
-Once these notes is tracked by git , that will be a great thing~ I love it !
-
-
-
-I\`m learning the style same like https://xxchan.me/ her blog-website. (from the best teacher~)
-
-### Todos: as priority
+## Bugs to fix:
 
 **necessary content display**
 
@@ -59,10 +39,24 @@ left  personal info , right article directory
 8.at home page , only  5 artile a page .
 shou be more like 15 will be prefer
 
+9.auto convert normal .md to jekyll .md
+with filename-dates and --- ---  include metadatas ,at the begin of every blog , use for classify and title display.
 
 ## useful data collectings:
 1.add visitors record,
 2.free to leave a msg.
 
+
+**I have so many notes locally .
+ eager to upload to The Internet~
+That will be a so cool thing:
+  the notes include:
+    CS tech, society,humanity,personal growth,history, and all the intersting facts and thoughts worth to check it out!**
+
+Once these notes is tracked by git , that will be a great thing~ I love it !
+
+
+
+I\`m learning the style same like https://xxchan.me/ her blog-website. (from the best teacher~) 
 
 
