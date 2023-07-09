@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "97f972e44c8a022a",
+        "id": "fba1b7fe456df3bb",
         "type": "tabs",
         "children": [
           {
-            "id": "6520701848d41190",
+            "id": "d306b0dad836bfc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-07-04-Java-THM.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-07-04-Java-THM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-07-04-Java-THM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023-07-04-Java-THM.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,14 +139,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6520701848d41190",
+  "active": "d306b0dad836bfc8",
   "lastOpenFiles": [
+    "2023-07-04-Java-THM.md",
     "2023-07-07-blog-under-construction.md",
     "2024-07-08-blog-under-construction.md",
     "2024-07-02-blog-under-construction.md",
     "assets/Pasted image 20230708095334.png",
     "2023-07-03-SpringCloud.md",
-    "2023-07-04-Java-THM.md",
     "2023-07-03-SpringCloud copy.md",
     "在线学习平台-BS架构.md",
     "assets/Pasted image 20230706180527.png",
