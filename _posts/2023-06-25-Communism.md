@@ -15,4 +15,4 @@ title:  "Communism"
 	@ref: https://www.chinesethought.cn/shuyu_show.aspx?shuyu_id=2318
 	
 ![[v2-37d02a7ebe6815ca975aa3641f45d6db_1440w.webp]]
-	注意上图文本中的*认真学习*
+
