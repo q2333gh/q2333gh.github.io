@@ -88,7 +88,7 @@ remind CS61B that dancing game man .
 
 **thinking takes efforts, fghting through confusion**
 
-![fluent](image.png)
+![rusty_to_fluent](/assets/image.png)
 
 
 
@@ -143,9 +143,13 @@ archive 存档的
 阶层式摘要
 即知道重点,又不
  
+## 祛魅 
+除魅一词在日常语境也可以用，意思其实很简单：   
+原本神秘而有魅力的东西因为某种原因突然变得不神秘、没有魅力了。    
+也是不对一些不了解没调查过得东西盲目崇拜和向往  
 
 
-
+## Other funny sayings
 One day, I\`ll become the master of CS enginerring field!… or at least, that’s what I keep telling my computer.” 😄 
 
 My ultimate goal is to excel in the field of computer science engineering and create innovative solutions for the world ,then, I’ll finally be able to fix my grandma’s computer.” 😂
