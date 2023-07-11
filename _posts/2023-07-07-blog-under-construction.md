@@ -2,6 +2,7 @@
 layout: post
 title:  "blog-under-construction"
 categories: [init Blog-website]
+pinned: true
 ---
 ## Bugs to fix:
 
