@@ -19,4 +19,4 @@ project的核心功能是什么?  实现得怎么样了?
 前期后期之间需要记录问题并归档,有时间再来解决细枝末节的问题  
 
 
-![Alt text](image-1.png)
+![Alt text](/assets/image-1.png)
