@@ -43,6 +43,8 @@ shou be more like 15 will be prefer
 9.auto convert normal .md to jekyll .md
 with filename-dates and --- ---  include metadatas ,at the begin of every blog , use for classify and title display.
 
+10.click in each blog show its post date 
+
 ## useful data collectings:
 1.add visitors record,
 2.free to leave a msg.
