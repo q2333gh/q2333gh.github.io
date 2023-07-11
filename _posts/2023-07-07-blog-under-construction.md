@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "blog-under-construction"
 categories: [init Blog-website]
 pinned: true
