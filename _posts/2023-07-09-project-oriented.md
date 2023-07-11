@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "解决project上问题的轻重缓急"
-categories: [resume]
+categories: [project]
 pinned: true
 ---
 业务驱动开发，驱动学习  
