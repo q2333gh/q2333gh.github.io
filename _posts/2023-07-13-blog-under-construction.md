@@ -35,7 +35,7 @@ left  personal info , right article directory
 
 6.visiter comment under the article .
 
-7.block visit via QQ , WeChat integreted browser.
+7.block visit via QQ , WeChat integreted browser,bcz this may cause Tencent tag my site as danger site, but fact is ,it never be.
  
 8.at home page , only  5 artile a page .
 shou be more like 15 will be prefer
