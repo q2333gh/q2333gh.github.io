@@ -22,6 +22,7 @@ pandoc --extract-media ../assets/imgs/java java1.docx -o ../../_posts/Java.md
 
 # bigger problem: if i have 300 picture in  a blog ,
 # github pages load speed? should i use another OSS to storage the imgs?
+# deeper solution: compress the imgs to a quality about show enough clearity.
 
 
 
