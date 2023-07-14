@@ -6,12 +6,18 @@ pinned: true
 ---
 ## Bugs to fix:
 
-**necessary content display**
+**ergent and  necessary content display**
 
-1.article pictures display
-xxchen use this in html tag: \<img src = "https://user-images.githubusercontent.com/9352536/202991793-664ea3f9-3838-4e5f-af6c-e5416140ca40.png" alt="xx"> 
+ 
+1.(fixed)article pictures display
+xxchen use this in html tag: \<img src = "https://user-images.githubusercontent.com/9352536/202991793-664ea3f9-3838-4e5f-af6c-e5416140ca40.png" alt="xx">   
+solutiosn:  
+img link just at the jekyll root path: /assets/imgs/xxx.png  
 
-2.directory generate and show
+2.cant show space at each newline , every newline beging with no space,  
+i dont know how to set it yet.
+
+3.directory generate and show
 (desktop view)and always make the diretory float at top right when scrolling down. 
 (mobile view)show a little floating icon to display and nav diretory. 
 directory should auto generate from .md file 
