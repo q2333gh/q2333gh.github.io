@@ -107,7 +107,7 @@ author:
   name             : "白桃乌龙"
   avatar           : "/assets/imgs/study1.jpg"
   bio              : "I think ,therefore I am."
-  location         : "China-Chengdu"
+  # location         : "China-Chengdu"
   email            : 1253102853@qq.com
   links:
     # - label: "Email"
@@ -122,9 +122,9 @@ author:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url: "https://facebook.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/q2333gh"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/q2333gh"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
