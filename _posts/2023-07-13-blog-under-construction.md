@@ -28,6 +28,7 @@ after finish this, I can upload all my blogs and pictures within.
 **optimize**
 3.fonts,both eng and chs
 
+textbox margins must have:     
 article layout, show article at the middle verticle area.
 left  personal info , right article directory
 
