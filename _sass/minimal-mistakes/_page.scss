@@ -28,6 +28,9 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  color: #3d4144;
+  font-family: "Noto Serif SC",Georgia,Times,serif;
+  line-height: 1.5;
 }
 
 .initial-content,
@@ -41,6 +44,7 @@ body {
   font-family: "Noto Serif SC", Georgia, Times, serif;
   line-height: 1.5;
 }
+
 
 // 让其只作用于Desktop Browser
 @media screen and (orientation:landscape) {
