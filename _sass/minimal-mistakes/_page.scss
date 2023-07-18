@@ -27,7 +27,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .initial-content,
@@ -35,23 +35,31 @@ body {
   flex: 1 0 auto;
 
 }
+//fonts-settings
+.initial-content {
+  color: #3d4144;
+  font-family: "Noto Serif SC", Georgia, Times, serif;
+  line-height: 1.5;
+}
 
 // 让其只作用于Desktop Browser
-@media screen and (orientation:landscape){
-  .initial-content{
-  margin-left: 12em;
-  margin-right: 12em; 
+@media screen and (orientation:landscape) {
+  .initial-content {
+    margin-left: 12em;
+    margin-right: 12em;
+  }
 }
-}
+
 // todo 桌面情况下,右边的区域展示目录,左边还是展示主页的左边的个人信息. @xxchen的那个.
 
 // 让其只作用于Mobile Browser
-@media screen and (orientation:portrait){
-  .initial-content{
-  margin-left: 0.5em;
-  margin-right: 0.5em; 
+@media screen and (orientation:portrait) {
+  .initial-content {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
-}
+
 //screnn: 
 //上面这段代码里面有个screen，它的意思是告知设备在打印页面时使用衬线字体，在屏幕上显示时用无衬线字体。但目前很多网站都会直接省略screen，因为网站如果不需要考虑用户打印时，可以直接这样写：
 
@@ -98,7 +106,7 @@ body {
     text-decoration: none;
   }
 
-  & + .page__meta {
+  &+.page__meta {
     margin-top: -0.5em;
   }
 }
@@ -114,22 +122,27 @@ body {
     border-bottom: 1px solid $border-color;
   }
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
-			position: relative;
-			left: 0.5em;
-			opacity: 0;
-			font-size: 0.8em;
-			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-			-moz-transition: opacity 0.2s ease-in-out 0.1s;
-			-o-transition: opacity 0.2s ease-in-out 0.1s;
-			transition: opacity 0.2s ease-in-out 0.1s;
-		}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    .header-link {
+      position: relative;
+      left: 0.5em;
+      opacity: 0;
+      font-size: 0.8em;
+      -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+      -moz-transition: opacity 0.2s ease-in-out 0.1s;
+      -o-transition: opacity 0.2s ease-in-out 0.1s;
+      transition: opacity 0.2s ease-in-out 0.1s;
+    }
 
-		&:hover .header-link {
-			opacity: 1;
-		}
-	}
+    &:hover .header-link {
+      opacity: 1;
+    }
+  }
 
   p,
   li,
@@ -142,8 +155,8 @@ body {
     margin: 0 0 $indent-var;
 
     /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
+    @if $paragraph-indent ==true {
+      &+p {
         text-indent: $indent-var;
         margin-top: -($indent-var);
       }
@@ -160,7 +173,7 @@ body {
     }
   }
 
-  :not(pre) > code {
+  :not(pre)>code {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     font-size: 0.8em;
@@ -170,7 +183,8 @@ body {
     &::before,
     &::after {
       letter-spacing: -0.2em;
-      content: "\00a0"; /* non-breaking space*/
+      content: "\00a0";
+      /* non-breaking space*/
     }
   }
 
@@ -191,7 +205,7 @@ body {
   }
 
   /* blockquote citations */
-  blockquote + .small {
+  blockquote+.small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
@@ -391,7 +405,7 @@ body {
     border: 0;
   }
 
-  + .taxonomy__section {
+  +.taxonomy__section {
     margin-top: 2em;
   }
 }
@@ -468,6 +482,7 @@ body {
   transition: $global-transition;
 
   &.disabled {
+
     input,
     button,
     textarea,
