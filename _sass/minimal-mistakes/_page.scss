@@ -35,7 +35,6 @@ body {
 .initial-content,
 .search-content {
   flex: 1 0 auto;
-
 }
 //fonts-settings
 // .initial-content {
@@ -48,8 +47,8 @@ body {
 // 让其只作用于Desktop Browser
 @media screen and (orientation:landscape) {
   .initial-content {
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-left: 8em;
+    margin-right: 8em;
   }
 }
 
