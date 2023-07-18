@@ -36,10 +36,15 @@ body {
 
 }
 // 让其只作用于Desktop Browser
-.initial-content{
+
+
+@media screen and (orientation:landscape){
+  .initial-content{
   margin-left: 8em;
   margin-right: 8em; 
 }
+}
+
 
 .page {
   @include breakpoint($large) {
