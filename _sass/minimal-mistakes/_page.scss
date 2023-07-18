@@ -35,6 +35,8 @@ body {
 .initial-content,
 .search-content {
   flex: 1 0 auto;
+  color: #3d4144;
+  font-family: "Noto Serif SC", Georgia, Times, serif;
 }
 //fonts-settings
 // .initial-content {
@@ -45,12 +47,12 @@ body {
 
 
 // 让其只作用于Desktop Browser
-@media screen and (orientation:landscape) {
-  .initial-content {
-    margin-left: 8em;
-    margin-right: 8em;
-  }
-}
+// @media screen and (orientation:landscape) {
+//   .initial-content {
+//     margin-left: 8em;
+//     margin-right: 8em;
+//   }
+// }
 
 // todo 桌面情况下,右边的区域展示目录,左边还是展示主页的左边的个人信息. @xxchen的那个.
 
