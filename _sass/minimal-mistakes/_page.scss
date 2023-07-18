@@ -35,9 +35,8 @@ body {
   flex: 1 0 auto;
 
 }
+
 // 让其只作用于Desktop Browser
-
-
 @media screen and (orientation:landscape){
   .initial-content{
   margin-left: 8em;
