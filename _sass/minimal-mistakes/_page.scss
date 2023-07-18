@@ -33,8 +33,12 @@ body {
 .initial-content,
 .search-content {
   flex: 1 0 auto;
-  margin-left: 4em;
-  margin-right: 4em; 
+
+}
+// 让其只作用于Desktop Browser
+.initial-content{
+  margin-left: 8em;
+  margin-right: 8em; 
 }
 
 .page {
