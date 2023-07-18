@@ -1,6 +1,6 @@
 
 ---
-layout: post
+layout: home
 title:  "Entropy:The Most Misunderstood Concept in Physics"
 ---
 url: https://youtu.be/DxL2HoqLbyA

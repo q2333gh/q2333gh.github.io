@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "解决project上问题的轻重缓急"
 categories: [project]
 pinned: true

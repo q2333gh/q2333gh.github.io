@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "Live with diffcult and fear"
 categories: [personal-growth]
 ---

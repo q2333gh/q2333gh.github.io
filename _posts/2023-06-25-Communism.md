@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "Communism"
 ---
 “你好同志！请问列宁格勒与斯大林格勒在哪里？我在地图上找不到了”  

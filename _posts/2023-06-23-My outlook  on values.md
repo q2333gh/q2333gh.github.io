@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "My outlook on values"
 ---
 
