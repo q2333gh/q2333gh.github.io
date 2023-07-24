@@ -1,8 +1,14 @@
 ---
+---
+
+---
+
 layout: post
 title: "Computer Graphics"
 categories: [CG]
+
 # pinned: true
+
 ---
 
 # Intro
