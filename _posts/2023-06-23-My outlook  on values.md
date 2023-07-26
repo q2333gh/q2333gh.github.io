@@ -154,5 +154,11 @@ from:高效能人士的七个习惯(modifyed)
 1.专业技能  
 2.英语: 雅思 7 吧?  
 3.存款  
+4.合法行为  
 这些都是 output  
 **需要什么 input?才能接近这几个目标?**  
+
+progressive approach,  
+progressive transform.  
+计划-执行-检验-迭代下次执行  
+过程中不断提高效率  
