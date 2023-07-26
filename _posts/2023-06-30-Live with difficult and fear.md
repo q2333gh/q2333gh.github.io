@@ -9,6 +9,22 @@ However, I understand that sometimes you may encounter difficulties that make yo
 That’s normal, and many people have similar feelings  
 you don’t have to let fear stop you from **pursuing your goals and interests**
 
+# what happen inside your brain when you study meet chanllenge?
+
+ref: UC course: Learning How to Learn ;Barbara Oakley
+
+brain have 2 modes:
+foucs mode :学习新事物的时候  
+![Alt text](image-12.png)  
+difuse mode: 日常,以及众多熟悉的衣食住行做的事情  
+![Alt text](image-13.png)  
+学习本身就是在构建小区域的神经网络:当学习中遇到 frastration 的时候,大脑集中在一小块区域解决问题,尚未构建高质量的神经网络:
+![Alt text](image-14.png)  
+这个过程需要不断地 practice makes permenant  
+回想 CS61B 跳脚步舞的那个人.  
+也需要在 frastratino 时候稍作休息,进入发散模式,
+大脑会自动在后台无意识的帮助解决困难问题.
+
 # aware,觉察 : measure the fear and frastration level
 
 You need to learn how to manage your fear and use it as a catalyst(催化剂) for growth and change.  
@@ -28,7 +44,7 @@ Learn **is** a process definnately with challenges.
 
 ## change the view of frastration
 
-## Things hepls: Eats and Excercices: Leave the task for a little while ,Return with power.
+## Things helps: Eats and Excercices: Leave the task for a little while ,Return with power.
 
 **You can have the _biological power_ and potential to overcome challenge.**  
 Goal:  

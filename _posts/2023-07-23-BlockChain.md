@@ -9,7 +9,10 @@ categories: [BlockChain]
 以一个时间间隔为链表的分布式账本。  
 ![Alt text](image-8.png)
 
-### 账本同步方式 :p2p
+### 账本同步方式 :p2p 网络路由
+
+即账本传输链路由 p2p 各个用户分发给附近的  
+![Alt text](image-9.png)
 
 ### 记账者收工作费用:
 
