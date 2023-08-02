@@ -25,7 +25,7 @@ after finish this, I can upload all my blogs and pictures within.
 3.(fixed half)beautify fonts,both eng and chs  
 mobile works,desktop not .
 
-textbox margins must have:  
+(fixed)textbox margins must have:  
 article layout, show article at the middle verticle area.  
 left personal info , right article directory
 
@@ -35,13 +35,13 @@ left personal info , right article directory
 
 4.nav-header
 
-5.emoji? how ? markdown emoji?
+5.(fixed)emoji? how ? markdown emoji?
 
 6.visiter comment under the article .
 
 7.block visit via QQ , WeChat integreted browser,bcz this may cause Tencent tag my site as danger site, but fact is ,it never be.
 
-8.at home page , only 5 artile a page .  
+8.(fixed)at home page , only 5 artile a page .  
 shou be more like 15 will be prefer
 
 9.auto convert normal .md to jekyll .md  
@@ -49,16 +49,16 @@ with filename-dates and --- --- include metadatas ,at the begin of every blog , 
 
 10.click in each blog show its post date
 
-## useful data collectings:
-
 1.add visitors record,  
 2.free to leave a msg.
 
-**I have so many notes locally .  
- eager to upload to The Internet~  
-That will be a so cool thing:
+I have some notes locally .  
+ wait to upload to The Internet~  
+That will be a cool thing:
 the notes include:
-CS tech, society,humanity,personal growth,history, and all the intersting facts and thoughts worth to check it out!**
+CS tech, society,humanity,personal growth,history, and all the intersting facts and thoughts worth to check it out!  
+but some of it is format of xmind. need convert to docx and then convert to .md with file and jekyll .md format info.  
+now still trying to make this workflow automatic to a program with scripts.
 
 Once these notes is tracked by git , that will be a great thing~ I love it !
 
