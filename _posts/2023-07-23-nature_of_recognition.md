@@ -11,7 +11,9 @@ epub here 下面那个链接下载:
       </object>  
 </div>   -->
 
-[The_Science_of_Successful_Learning](./assets/The_Science_of_Successful_Learning.epub ":include")
+<!-- [The_Science_of_Successful_Learning](./The_Science_of_Successful_Learning.epub ":include")   -->
+
+[认知天性](/assets/The_Science_of_Successful_Learning.epub)
 
 # <认知天性>主旨
 
