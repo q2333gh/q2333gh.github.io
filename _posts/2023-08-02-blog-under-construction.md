@@ -7,7 +7,7 @@ pinned: true
 
 ## Bugs to fix:
 
-**ergent and necessary content display**
+## **ergent**
 
 1.(fixed)article pictures display
 
@@ -21,7 +21,8 @@ directory should auto generate from .md file
 
 after finish this, I can upload all my blogs and pictures within.
 
-**optimize**  
+## **optimize**
+
 3.(fixed half)beautify fonts,both eng and chs  
 mobile works,desktop not .
 
@@ -48,6 +49,8 @@ shou be more like 15 will be prefer
 with filename-dates and --- --- include metadatas ,at the begin of every blog , use for classify and title display.
 
 10.click in each blog show its post date
+
+## optional
 
 1.add visitors record,  
 2.free to leave a msg.
