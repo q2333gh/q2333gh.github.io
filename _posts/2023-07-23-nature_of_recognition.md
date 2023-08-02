@@ -6,11 +6,13 @@ categories: [books]
 
 epub here:
 
-<div id="epub">  
+<!-- <div id="epub">  
       <object data="assets/The_Science_of_Successful_Learning.epub" type="application/epub" width="10%" height="100px">  
       </object>  
-</div>  
-[The_Science_of_Successful_Learning](assets/The_Science_of_Successful_Learning.epub ':include')  
+</div>   -->
+
+[The_Science_of_Successful_Learning](./assets/The_Science_of_Successful_Learning.epub ":include")
+
 # <认知天性>主旨
 
 1.让学习轻而易举的心理学规律->即高效的学习:时间少,学得多,且不易忘记.  
