@@ -52,6 +52,11 @@ with filename-dates and --- --- include metadatas ,at the begin of every blog , 
 
 ## optional
 
+github pages workflow  
+everytime i push to remote-git .  
+the github will automatic build the github-jekyll-pages,  
+but it takes about 100s to build . maybe somehow optimize the time
+
 1.add visitors record,  
 2.free to leave a msg.
 
