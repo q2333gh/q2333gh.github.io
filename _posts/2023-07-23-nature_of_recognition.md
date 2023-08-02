@@ -13,7 +13,9 @@ epub here 下面那个链接下载:
 
 <!-- [The_Science_of_Successful_Learning](./The_Science_of_Successful_Learning.epub ":include")   -->
 
-[认知天性](/assets/The_Science_of_Successful_Learning.epub)
+<!-- [认知天性](/assets/The_Science_of_Successful_Learning.epub)   -->
+
+点击[下载](http://110.41.153.217:8002/file/The_Science_of_Successful_Learning.epub)
 
 # <认知天性>主旨
 
