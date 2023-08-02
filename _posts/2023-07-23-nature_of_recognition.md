@@ -4,7 +4,7 @@ title: "认知天性"
 categories: [books]
 ---
 
-epub here 下面那个链接下载:
+epub here 下面那个链接下载:另外需要下载图书推荐 Z-library
 
 <!-- <div id="epub">  
       <object data="assets/The_Science_of_Successful_Learning.epub" type="application/epub" width="10%" height="100px">  
