@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title: "认知天性"
 categories: [books]
 ---
