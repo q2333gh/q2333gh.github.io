@@ -4,8 +4,8 @@ title: "认知天性"
 categories: [books]
 ---
 
-epub here 下面那个链接下载:
-点击[下载](http://110.41.153.217:8002/file/The_Science_of_Successful_Learning.epub)
+epub here:
+点击下载[认知天性](http://110.41.153.217:8002/file/The_Science_of_Successful_Learning.epub)
 
 另外需要下载图书可用上 [Z-library](https://z-lib.is/)  
 桌面端阅读软件可用:[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader)  
