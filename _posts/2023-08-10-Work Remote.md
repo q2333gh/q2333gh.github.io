@@ -13,6 +13,8 @@ ref: https://space.bilibili.com/4848323
 如微软 41 级:  
 中国程序员 45w RMB. 美国程序员 20w USD
 
+# 长期主义
+
 # 2.English
 
 把自己浸泡在英语里面  
@@ -30,3 +32,5 @@ ref: https://space.bilibili.com/4848323
 # 行业:
 
 ## Web3
+
+![Alt text](image-25.png)
