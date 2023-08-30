@@ -12,3 +12,7 @@ output选项是可选的，如果不填output选项，就会默认输出一个�
 
 use example:
 python3 xmind2md.py -source ./PP.xmind 
+
+
+官方SDK!!! nice!
+https://github.com/xmindltd/xmind-sdk-js

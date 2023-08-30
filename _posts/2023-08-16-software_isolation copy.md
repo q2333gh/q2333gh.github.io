@@ -8,6 +8,10 @@ categories: []
 2. adding ads to system . shortcuts, windows registery, set it self auto run.
 
 
+# Abstraction: the Virtualization 
+such as virtual-cpu(architect-agnostic), vmware, docker(really powerful), and sandboixe , windows buildin sanbox.     
+## all the similar goal :  
+provide a virtual env for apps to run .   not effect host machine env.   
 
 
 # Solution for Win10:
