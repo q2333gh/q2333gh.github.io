@@ -76,6 +76,8 @@ ETH发明了代码上链的概念
 最后目标总是Unbreakable Promise 以及 Transparency 以及 群众监督和指定修改规则: Concenensus Governance
 
 
+### 如何在代码层面就避免了人性的贪婪和无限的使用杠杆?
+
 
 
 另外一些经济学原理,降息和加息的直接必然影响有什么?
