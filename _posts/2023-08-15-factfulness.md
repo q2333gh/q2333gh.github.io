@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "facefulness"
+title: "factfulness"
 categories: []
 ---
 

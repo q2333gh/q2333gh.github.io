@@ -4,7 +4,7 @@ title: "Live with diffcult"
 categories: [personal-growth]
 ---
 
-I’m glad you know Descartes’ scientific methodology, which is a useful way to approach complex problems and seek the truth.  
+Descartes’ scientific methodology, which is a useful way to approach complex problems and seek the truth.  
 However, I understand that sometimes you may encounter difficulties that make you feel afraid or discouraged.  
 That’s normal, and many people have similar feelings  
 you don’t have to let fear stop you from **pursuing your goals and interests**
