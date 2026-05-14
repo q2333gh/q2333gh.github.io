@@ -1,0 +1,2773 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>java notes - btwl`s Blog</title>
+<meta name="description" content="I think ,therefore I am.">
+
+
+  <meta name="author" content="白桃乌龙">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="btwl`s Blog">
+<meta property="og:title" content="java notes">
+<meta property="og:url" content="/archinves/2023-07-12-Java/">
+
+
+  <meta property="og:description" content="I think ,therefore I am.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/archinves/2023-07-12-Java/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "白桃乌龙",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="btwl`s Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--home">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          btwl`s Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/year-archive/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/collection-archive/">Collections</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sitemap/">Sitemap</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">java notes</h1>
+    
+    <p><strong>Java</strong></p>
+
+<h1 id="优质参考书籍不需要逐字阅读即选取对概念理解和工程优化用得到的地方阅读摘抄并总结为thm">优质参考书籍,不需要逐字阅读即选取对概念理解和工程优化用得到的地方,阅读,摘抄,并总结为THM</h1>
+
+<h2 id="核心卷12-核心卷12-list-paragraph">核心卷1,2 {#核心卷12 .list-paragraph}</h2>
+
+<h2 id="深入理解jvm-深入理解jvm-list-paragraph">深入理解JVM {#深入理解jvm .list-paragraph}</h2>
+
+<h2 id="java编程思想-java编程思想-list-paragraph">java编程思想 {#java编程思想 .list-paragraph}</h2>
+
+<h1 id="java重要概念">java重要概念</h1>
+
+<h2 id="从代码到程序运行的编译流程字节码虚拟机-从代码到程序运行的编译流程字节码虚拟机-list-paragraph">从代码到程序运行的编译流程:字节码,虚拟机, {#从代码到程序运行的编译流程字节码虚拟机 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image1.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.7753958880139984in”}</p>
+</blockquote>
+
+<ul>
+  <li>JIT编译器</li>
+</ul>
+
+<blockquote>
+  <p>• 将热点代码保存为机器码</p>
+</blockquote>
+
+<ul>
+  <li>AOT预编译(JDK9)</li>
+</ul>
+
+<blockquote>
+  <p>• 将字节码全部保存为机器码</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image2.png" alt="desc" />{width=”1.968503937007874in”
+height=”3.7143799212598427in”}</p>
+</blockquote>
+
+<h2 id="面向对象-面向对象-list-paragraph">面向对象 {#面向对象 .list-paragraph}</h2>
+
+<h3 id="与c面向对象的异同">与C++面向对象的异同</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image3.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7761986001749781in”}</p>
+</blockquote>
+
+<h3 id="封装">封装</h3>
+
+<ul>
+  <li>封装</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image4.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.640728346456693in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image5.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1952898075240594in”}</p>
+
+  <p>•
+构造函数,构造方法和普通方法的区别，只有权限修饰和方法名（和类名相同），虽然没有返回值，但是它没有返回类型，包括void!!</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image6.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5108737970253718in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image7.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1889632545931759in”}</p>
+</blockquote>
+
+<ul>
+  <li>访问修饰符//todo</li>
+</ul>
+
+<blockquote>
+  <p>• 类内部属性全部私有,访问只能通过public 的getter 和setter方法</p>
+</blockquote>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image8.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6310323709536309in”}</p>
+
+  <p>• 面向过程思维简单直接,但是缺少复用</p>
+</blockquote>
+
+<ul>
+  <li>类生成对象</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image9.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4417279090113736in”}</p>
+</blockquote>
+
+<ul>
+  <li>内部类//todo</li>
+</ul>
+
+<blockquote>
+  <p>• 重要程度如何,在什么工程中必用吗?</p>
+</blockquote>
+
+<ul>
+  <li>什么是句柄?最简单的理解:句柄即this 指针</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image10.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.145559930008749in”}</p>
+</blockquote>
+
+<h3 id="继承">继承</h3>
+
+<ul>
+  <li>继承</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image11.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5442541557305337in”}</p>
+
+  <p>• 抽象类</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image12.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.42678149606299215in”}</p>
+
+  <p>• 接口</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image13.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5757152230971129in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image14.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0505358705161856in”}</p>
+
+  <p>• 抽象类和接口的异同</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image15.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2721106736657917in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image16.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.11665244969378828in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image17.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4182250656167979in”}</p>
+
+  <p>• 子类 继承 父类</p>
+
+  <p>• 构造方法//todo</p>
+
+  <p>• 父类没有无参构造时:</p>
+
+  <p>• 定义</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image18.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4075317147856519in”}</p>
+
+  <p>•
+子类构造方法在调用时必须先调用父类的，由于父类没有无参构造，必须在子类中显式调用，修改子类构造方法如下即可：</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image19.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6539435695538057in”}</p>
+</blockquote>
+
+<h3 id="多态">多态</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image20.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9593099300087489in”}</p>
+
+  <p>• 接口</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image21.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3815354330708661in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image22.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.46809383202099736in”}</p>
+
+  <p>• 接口和抽象类的关系区别</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image23.jpeg" alt="desc" />{width=”1.968503937007874in”
+height=”3.1474234470691163in”}</p>
+
+  <p>•
+java8接口自带适配器了,不用重写接口的所有方法,只需要写需要重写的部分方法</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image24.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6089851268591426in”}</p>
+
+  <p>• Generics范型</p>
+
+  <p>• Parameterized Type</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image25.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1657742782152232in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image26.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9198611111111111in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image27.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5106758530183727in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image28.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5291196412948381in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image29.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8735968941382327in”}</p>
+
+  <p>• 范型方法</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image30.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9147320647419073in”}</p>
+
+  <p>• 可变长参数</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image31.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4883814523184602in”}</p>
+</blockquote>
+
+<h2 id="反射-反射-list-paragraph">反射 {#反射 .list-paragraph}</h2>
+
+<h3 id="概念">概念</h3>
+
+<ul>
+  <li>图</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image32.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5331922572178478in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image33.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6615201224846894in”}</p>
+</blockquote>
+
+<ul>
+  <li>运行时,基本调用:</li>
+</ul>
+
+<blockquote>
+  <p>• 1.创建Class类调用反射</p>
+
+  <p>• 图</p>
+
+  <p>• 重要应用:forName就可以读取其他的文本文件在运行动态生成不同对象</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image34.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.504850174978128in”}</p>
+
+  <p>• 2.获取一个类的实例对象</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image35.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1963921697287838in”}</p>
+
+  <p>• 3.获取对象的基本信息</p>
+
+  <p>• 对象名称</p>
+
+  <p>• 对象属性</p>
+
+  <p>• 对象方法</p>
+
+  <p>• 获取构造器信息</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image36.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5021019247594051in”}</p>
+
+  <p>• 获取方法</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image37.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.187037401574803in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image38.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.971790244969379in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 调用方法</p>
+
+  <p>• . . . 是可变长参数列表</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image39.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8790266841644794in”}</p>
+</blockquote>
+
+<h2 id="序列化todo-序列化todo-list-paragraph">序列化//todo {#序列化todo .list-paragraph}</h2>
+
+<h3 id="概念-1">概念</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image40.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6228357392825897in”}</p>
+</blockquote>
+
+<ul>
+  <li>用途</li>
+</ul>
+
+<blockquote>
+  <p>• 传输</p>
+</blockquote>
+
+<h1 id="java-syntax">java syntax</h1>
+
+<h2 id="8种基本数据类型-4211-种基本数据类型-4211-list-paragraph">8种基本数据类型-4211 {#种基本数据类型-4211 .list-paragraph}</h2>
+
+<h3 id="string不是基本数据类型是一个string类">String不是基本数据类型.是一个String类</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image41.png" alt="desc" />{width=”1.968503937007874in”
+height=”3.3874070428696412in”}</p>
+</blockquote>
+
+<ul>
+  <li>char 16位 2字节 16进制:0000-ffff</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+</blockquote>
+
+<h3 id="自动装箱和拆箱">自动装箱和拆箱</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image42.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8705479002624672in”}</p>
+</blockquote>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image43.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1074890638670167in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image44.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8884394138232721in”}</p>
+</blockquote>
+
+<h3 id="取整">取整</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image45.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8944028871391076in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image46.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6000678040244969in”}</p>
+
+  <p>• round</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image47.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7205468066491688in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image48.png" alt="desc" />{width=”0.6299212598425197in”
+height=”0.794248687664042in”}</p>
+</blockquote>
+
+<ul>
+  <li>向上取整 ceil向下取整 floor四舍五入取整 round</li>
+</ul>
+
+<h3 id="自动转型注意括号最高优先级和计算顺序从左到右转型">自动转型注意括号最高优先级和计算顺序从左到右转型</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image49.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.27864720034995627in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image50.png" alt="desc" />{width=”0.6299212598425197in”
+height=”1.5686275153105862in”}</p>
+</blockquote>
+
+<h3 id="精度">精度</h3>
+
+<ul>
+  <li>小数</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image51.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.39723206474190725in”}</p>
+</blockquote>
+
+<h3 id="转型">转型</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image52.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1401979440069991in”}</p>
+
+  <p>• 子主题 1</p>
+</blockquote>
+
+<h2 id="循环-循环-list-paragraph">循环 {#循环 .list-paragraph}</h2>
+
+<h3 id="for循环的执行顺序">for循环的执行顺序</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image53.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5288517060367454in”}</p>
+
+  <p>• 例题</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image54.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3415244969378828in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image55.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8170800524934383in”}</p>
+
+  <p>• 实际使用</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image56.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3455599300087489in”}</p>
+
+  <p>• int i=0 初始化只执行一次</p>
+
+  <p>• i&lt;10 每次判断是否进入循环</p>
+
+  <p>• i++,循环内部执行完成一次则执行一次i++</p>
+
+  <p>• i++以后再次判断i&lt;10是否进入循环</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image57.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2894860017497813in”}</p>
+</blockquote>
+
+<ul>
+  <li>还可以break b;指定跳出多重循环,但是不建议使用了</li>
+</ul>
+
+<h2 id="理解并行并发串行的概念-理解并行并发串行的概念-list-paragraph">理解:并行,并发,串行的概念 {#理解并行并发串行的概念 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image58.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8761187664041994in”}</p>
+</blockquote>
+
+<h2 id="static关键字用法-static关键字用法-list-paragraph">static关键字用法 {#static关键字用法 .list-paragraph}</h2>
+
+<h3 id="static对于类的属性field">static对于类的属性/field</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image59.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5890015310586176in”}</p>
+</blockquote>
+
+<h3 id="存在jvm的heap中">存在JVM的Heap中</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image60.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2480719597550307in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image61.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8730610236220473in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image62.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.226923665791776in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image63.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.548885608048994in”}</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>什么是内部类?</p>
+  </li>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image64.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.24426727909011373in”}</p>
+</blockquote>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image65.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.18050306211723535in”}</p>
+</blockquote>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image66.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.11708552055993in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image67.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3862707786526685in”}</p>
+</blockquote>
+
+<h2 id="invokereflection反射-invokereflection反射-list-paragraph">invoke/Reflection反射 {#invokereflection反射 .list-paragraph}</h2>
+
+<h3 id="introspectionmirror像是一个类照镜子看自己的数据结构是什么样子的报告自己的数据结构和构造器内部函数等">introspectionmirror像是一个类照镜子,看自己的数据结构是什么样子的,报告自己的数据结构,和构造器,内部函数等.</h3>
+
+<h3 id="concept-概念">concept 概念</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image68.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4295909886264217in”}</p>
+</blockquote>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image69.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2315890201224847in”}</p>
+</blockquote>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image70.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6610870516185476in”}</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>在程序的运行过程中，对于任何一个类，都能够知道它的所有属性和方法；对于任意一个对象，都能够知道它的任意属性和方法，这种动态获取信息以及动态调用对象方法的功能称为Java语言的反射机制。</p>
+  </li>
+  <li>运行时获取到Introspection类或者对象(class Book/Book
+    <blockquote>
+      <p>book1)的属性和方法以后</p>
+    </blockquote>
+  </li>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image71.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8231025809273841in”}</p>
+
+  <p>• Introspection与Reflection</p>
+</blockquote>
+
+<h3 id="使用">使用</h3>
+
+<ul>
+  <li>原始new</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image72.jpg" alt="desc" />{width=”1.968503937007874in”
+height=”0.8332786526684165in”}</p>
+</blockquote>
+
+<ul>
+  <li>反射</li>
+</ul>
+
+<blockquote>
+  <p>• 反射类</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image73.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5730621172353456in”}</p>
+
+  <p>• 获取类Class</p>
+
+  <p>• 获取类的的方法Method</p>
+
+  <p>• 获取构造方法Constructor</p>
+
+  <p>• 获取类的属性Field</p>
+
+  <p>• 获取class对象的方式的主要三种：</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image74.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4401924759405074in”}</p>
+
+  <p>• 根据类名：类名.class</p>
+
+  <p>• myBook.classs</p>
+
+  <p>• 根据对象：对象.getClass()</p>
+
+  <p>• book1.getClass()</p>
+
+  <p>• 根据全限定类名：Class.forName(全限定类名)</p>
+
+  <p>• Class.forName("demo1.User")</p>
+
+  <p>• 获取到class对象以后实例化</p>
+
+  <p>• newInstance</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image75.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3515190288713911in”}</p>
+
+  <p>• 实例化方式有3种</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image76.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7913254593175854in”}</p>
+
+  <p>• 实例</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image77.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6230413385826772in”}</p>
+
+  <p>• 实例2</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image78.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.9567169728783902in”}</p>
+</blockquote>
+
+<h3 id="annotation注解-todo">annotation注解 //todo</h3>
+
+<ul>
+  <li>concept 概念</li>
+</ul>
+
+<h2 id="常量-常量-list-paragraph">常量 {#常量 .list-paragraph}</h2>
+
+<h3 id="enum可以是常量的集合">enum可以是常量的集合</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image79.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5236275153105862in”}</p>
+</blockquote>
+
+<h2 id="final-final-list-paragraph">final {#final .list-paragraph}</h2>
+
+<h3 id="thm">THM</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image80.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0208486439195101in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image81.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9606572615923009in”}</p>
+</blockquote>
+
+<h3 id="thm-1">THM</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image82.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9146205161854768in”}</p>
+</blockquote>
+
+<ul>
+  <li>final A-&gt;B</li>
+</ul>
+
+<blockquote>
+  <p>• -&gt;
+这个指向行为不能改变.B的值可以改变即指针存放的地址初始化之后便不能改变</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image83.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.680097331583552in”}</p>
+</blockquote>
+
+<h2 id="object类-object类-list-paragraph">Object类 {#object类 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image84.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8334962817147857in”}</p>
+</blockquote>
+
+<ul>
+  <li>equals实现</li>
+</ul>
+
+<blockquote>
+  <p>• ==比较的是两个对象的引用值</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image85.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.9533617672790902in”}</p>
+
+  <p>• equals对比====
+指针对比equals可以自行重载,如自定义了一个User的equals对比内部数据结构name,age是否相等</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image86.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+  <p>• 面试常考重点!引用类型的==对比两个对象的指针存的地址值是否相等!</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image87.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7788429571303587in”}</p>
+
+  <p>• Integer(1) 都存在常量池共用一个值</p>
+
+  <p>• x地址可能是0x00</p>
+
+  <p>• y地址可能是0x04</p>
+
+  <p>• 因此引用x,y对象的地址不一样,但是指向是一样的</p>
+</blockquote>
+
+<ul>
+  <li>native关键词</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image88.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.49753390201224845in”}</p>
+
+  <p>• 使用原因</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image89.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.47374781277340333in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image90.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1868919510061242in”}</p>
+</blockquote>
+
+<ul>
+  <li>toString实现</li>
+</ul>
+
+<blockquote>
+  <p>• getClass反射获取对象,再获取反射对象的名称</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image91.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2287062554680665in”}</p>
+</blockquote>
+
+<h2 id="this-this-list-paragraph">this {#this .list-paragraph}</h2>
+
+<h3 id="概念-2">概念</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image92.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.41236220472440943in”}</p>
+</blockquote>
+
+<h2 id="super-super-list-paragraph">super {#super .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image93.png" alt="desc" />{width=”1.968503937007874in”
+height=”3.1486384514435697in”}</p>
+</blockquote>
+
+<ul>
+  <li>super(x,y) 向父类传参</li>
+</ul>
+
+<h2 id="异常-异常-list-paragraph">异常 {#异常 .list-paragraph}</h2>
+
+<h3 id="概念-3">概念</h3>
+
+<ul>
+  <li>如果try执行失败,则将程序运行跳转到catch部分的exception类接管,由异常类处理捕获到的异常,然后交回控制权给原来程序,finally是无论try成功与否都要执行</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image94.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8022583114610674in”}</p>
+</blockquote>
+
+<h3 id="分类">分类</h3>
+
+<ul>
+  <li>图</li>
+</ul>
+
+<blockquote>
+  <p>• THM</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image95.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2573862642169729in”}</p>
+</blockquote>
+
+<ul>
+  <li>Error: java程序无法处理</li>
+</ul>
+
+<blockquote>
+  <p>• 一般情况下jvm直接线程终止</p>
+</blockquote>
+
+<ul>
+  <li>exception</li>
+</ul>
+
+<blockquote>
+  <p>• io异常</p>
+
+  <p>• runtime异常</p>
+
+  <p>• 用户自定义异常</p>
+</blockquote>
+
+<h3 id="处理机制">处理机制</h3>
+
+<ul>
+  <li>
+    <p>可以选择捕获或者抛出异常</p>
+  </li>
+  <li>
+    <p>图</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>• try:监控区</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image96.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7435301837270342in”}</p>
+
+  <p>• THM</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image97.jpg" alt="desc" />{width=”1.968503937007874in”
+height=”1.545945975503062in”}</p>
+</blockquote>
+
+<h2 id="编解码-编解码-list-paragraph">编解码 {#编解码 .list-paragraph}</h2>
+
+<h3 id="要点1">要点1</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image98.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.38575240594925636in”}</p>
+</blockquote>
+
+<h2 id="fp-函数式编程another-new-world-fp-函数式编程another-new-world-list-paragraph">FP 函数式编程another new world {#fp-函数式编程another-new-world .list-paragraph}</h2>
+
+<p><img src="/assets/imgs/java/media/template_document.xml_image99.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h3 id="为什么需要函数式编程">为什么需要函数式编程?</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image100.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1789971566054243in”}</p>
+</blockquote>
+
+<h3 id="概念-4">概念</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image101.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4222200349956255in”}</p>
+</blockquote>
+
+<h2 id="hof编程-hof编程-list-paragraph">HoF编程 {#hof编程 .list-paragraph}</h2>
+
+<h2 id="annotation注解-annotation注解-list-paragraph">annotation注解 {#annotation注解 .list-paragraph}</h2>
+
+<h3 id="基本使用">基本使用</h3>
+
+<ul>
+  <li>\@Data 提供了功能可以理解,但是如何实现的?</li>
+</ul>
+
+<h3 id="注解原理-todo">注解原理? todo</h3>
+
+<h1 id="java内部对象工具的选择">java内部:(对象,工具)的选择</h1>
+
+<h2 id="thm-只用string-和stringbuffer-不用stringbuilder-thm-只用string-和stringbuffer-不用stringbuilder-list-paragraph">THM 只用String 和StringBuffer. 不用StringBuilder {#thm-只用string-和stringbuffer.-不用stringbuilder .list-paragraph}</h2>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image102.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2101968503937008in”}</p>
+</blockquote>
+
+<h1 id="stl-container-容器todo">STL, Container 容器//todo</h1>
+
+<p><img src="/assets/imgs/java/media/template_document.xml_image103.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h2 id="容器分类-容器分类-list-paragraph">容器分类 {#容器分类 .list-paragraph}</h2>
+
+<h3 id="collection">Collection</h3>
+
+<ul>
+  <li>概览图以及原理解读</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image104.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.039194006999125in”}</p>
+
+  <p>• Set</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image105.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3214785651793526in”}</p>
+
+  <p>• 红黑树,一种自动平衡的二叉树,高插入和查找性能</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image106.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9451946631671041in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image107.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1188899825021872in”}</p>
+
+  <p>•</p>
+
+  <p>• 子主题 4</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image108.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1879647856517934in”}</p>
+
+  <p>• 子主题 5</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image109.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3382174103237094in”}</p>
+
+  <p>• 旋转</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image110.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5056091426071742in”}</p>
+
+  <p>• Queue也可以用ArrayDeque</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image111.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4894149168853894in”}</p>
+</blockquote>
+
+<ul>
+  <li>使用</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image112.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+  <p>• ArrayList</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image113.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p>•</p>
+
+  <p>• 如何把id添加进 list数组集合中的Rowpos对象集合中的 指定第一个对象
+的id属性中去??</p>
+</blockquote>
+
+<h3 id="map">Map</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image114.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.024562554680665in”}</p>
+</blockquote>
+
+<ul>
+  <li>什么是分段锁?Cool</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image115.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6016590113735784in”}</p>
+</blockquote>
+
+<h2 id="设计模式-设计模式-list-paragraph">设计模式 {#设计模式 .list-paragraph}</h2>
+
+<h3 id="迭代器">迭代器</h3>
+
+<h3 id="不记得了就去看cs61b">不记得了就去看CS61B</h3>
+
+<h1 id="多线程并发问题无锁对应os的-concurrency">多线程,并发问题,无锁对应OS的 Concurrency</h1>
+
+<h2 id="基本使用-基本使用-1-list-paragraph">基本使用 {#基本使用-1 .list-paragraph}</h2>
+
+<h3 id="两种启用多线程方法">两种启用多线程方法</h3>
+
+<ul>
+  <li>继承Thread类使用</li>
+</ul>
+
+<blockquote>
+  <p>• extends继承线程类</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image116.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8899748468941382in”}</p>
+
+  <p>• start()启动线程</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image117.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7135192475940507in”}</p>
+
+  <p>• java启动以后是一个java进程,main线程开启了 cat线程,内部名称Thread-0,</p>
+
+  <p>• 重要:</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image118.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.1371894138232721in”}</p>
+
+  <p>• main线程和cat线程会交替执行</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image119.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1446073928258969in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image120.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.7125371828521434in”}</p>
+
+  <p>• 即各
+线程独立如果main执行60s,cat执行80smain会自行停止,cat会执行到80s然后退出java进程</p>
+
+  <p>• 关联理解后面的守护线程守护线程则不是独立的,是关联型的</p>
+</blockquote>
+
+<ul>
+  <li>更好的多线程实现:实现Runnable接口,再使用Thread类代理要执行的多线程对象静态代理</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image121.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1914632545931758in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image122.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8273425196850394in”}</p>
+
+  <p>• 好处: 不必继承Thread全部方法,简洁,可以实现其他的必要继承</p>
+
+  <p>• 用例</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image123.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7158191163604549in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image124.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5988429571303587in”}</p>
+
+  <p>• 设计模式:静态代理你没有这个功能/我帮你实现这个功能</p>
+
+  <p>• 简单demo</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image125.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.772567804024497in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image126.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7287653105861768in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image127.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7064873140857393in”}</p>
+</blockquote>
+
+<h3 id="为什么是start0">为什么是start0()?</h3>
+
+<ul>
+  <li>不使用start时,run方法没完成不执行下面的main方法,串行化执行了,阻塞</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image128.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1602438757655293in”}</p>
+</blockquote>
+
+<ul>
+  <li>底层</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image129.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9036373578302712in”}</p>
+
+  <p>• 不同OS执行多线程的内核实现不同.所以调用底层方法 syscall fork() and
+exec()</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image130.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.842746062992126in”}</p>
+</blockquote>
+
+<h2 id="线程内的常用方法-线程内的常用方法-list-paragraph">线程内的常用方法 {#线程内的常用方法 .list-paragraph}</h2>
+
+<h3 id="设置和获取线程名">设置和获取线程名</h3>
+
+<ul>
+  <li>
+    <p>setName()</p>
+  </li>
+  <li>
+    <p>getName()</p>
+  </li>
+</ul>
+
+<h3 id="控制线程运行状态">控制线程运行状态</h3>
+
+<ul>
+  <li>运行</li>
+</ul>
+
+<blockquote>
+  <p>• start()</p>
+</blockquote>
+
+<ul>
+  <li>中断</li>
+</ul>
+
+<blockquote>
+  <p>• interrupt()</p>
+
+  <p>• 图</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image131.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5197922134733158in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image132.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9519466316710411in”}</p>
+
+  <p>• 提前结束休眠继续执行while循环</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image133.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.768908573928259in”}</p>
+</blockquote>
+
+<ul>
+  <li>休眠</li>
+</ul>
+
+<blockquote>
+  <p>• sleep()</p>
+
+  <p>• 设置线程为TimeWaiting状态</p>
+</blockquote>
+
+<ul>
+  <li>关闭</li>
+</ul>
+
+<blockquote>
+  <p>• 多种方法</p>
+
+  <p>• 如t.close();</p>
+</blockquote>
+
+<h3 id="设置线程优先级">设置线程优先级</h3>
+
+<ul>
+  <li>
+    <p>getPriority</p>
+  </li>
+  <li>
+    <p>setPriority</p>
+  </li>
+  <li>
+    <p>注意:</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image134.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.32808398950131235in”}</p>
+</blockquote>
+
+<h3 id="线程内共享数据">&lt;线程内&gt;共享数据</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image135.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.44625984251968503in”}</p>
+</blockquote>
+
+<h2 id="线程间的切换-线程间的切换-list-paragraph">线程间的切换 {#线程间的切换 .list-paragraph}</h2>
+
+<h3 id="让步">让步</h3>
+
+<ul>
+  <li>yield</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image136.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.22560367454068242in”}</p>
+
+  <p>•
+yied让步视情况执行,如果资源很多则java自动不予让步资源紧张则yield让步实现</p>
+
+  <p>• 线程保持Runnable状态</p>
+</blockquote>
+
+<h3 id="插队">插队</h3>
+
+<ul>
+  <li>join</li>
+</ul>
+
+<blockquote>
+  <p>•
+join以后必须执行完毕插队线程内的所有任务,其他线程全部被设置为线程waiting状态,才执行其他线程</p>
+
+  <p>• 例子</p>
+
+  <p>• 123ABC45</p>
+
+  <p>• 例子</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image137.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4349015748031496in”}</p>
+
+  <p>• t2.join() 则让t2插队</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image138.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8455774278215223in”}</p>
+</blockquote>
+
+<h3 id="守护线程">守护线程</h3>
+
+<ul>
+  <li>启用方法</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image139.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5052624671916011in”}</p>
+</blockquote>
+
+<ul>
+  <li>守护线程的运行依附用户线程</li>
+</ul>
+
+<blockquote>
+  <p>• 用户线程关闭时会自动调用守护线程关闭</p>
+
+  <p>• 用户线程:即用户创建的所有线程</p>
+</blockquote>
+
+<ul>
+  <li>守护线程重要应用:GC</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image140.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.21950896762904637in”}</p>
+</blockquote>
+
+<h2 id="线程生命周期-线程生命周期-list-paragraph">线程生命周期 {#线程生命周期 .list-paragraph}</h2>
+
+<h3 id="图">图</h3>
+
+<ul>
+  <li>6种或者7种状态</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image141.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3260061242344707in”}</p>
+
+  <p>• 调度器: scheduler with in some polocies and algorithm</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image142.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2947080052493438in”}</p>
+
+  <p>• 挂起suspend()建议不要使用/deprecated</p>
+</blockquote>
+
+<h3 id="threadagetstate方法">threadA.getState()方法</h3>
+
+<ul>
+  <li>图</li>
+</ul>
+
+<blockquote>
+  <p>• 以及 waiting timeWaiting block terminated</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image143.png" alt="desc" />{width=”1.7421259842519685in”
+height=”1.8208661417322836in”}</p>
+</blockquote>
+
+<ul>
+  <li>返回</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image144.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0213298337707786in”}</p>
+</blockquote>
+
+<h2 id="线程间的通信-同步机制对比os的-进程间通信理解-线程间的通信-同步机制对比os的-进程间通信理解-list-paragraph">线程间的通信 同步机制对比OS的 进程间通信理解 {#线程间的通信-同步机制对比os的-进程间通信理解 .list-paragraph}</h2>
+
+<h3 id="概念-5">概念</h3>
+
+<ul>
+  <li>图</li>
+</ul>
+
+<blockquote>
+  <p>• 即内存读写</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image145.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4586800087489064in”}</p>
+</blockquote>
+
+<h3 id="使用-1">使用</h3>
+
+<ul>
+  <li>sychronized即互斥锁</li>
+</ul>
+
+<blockquote>
+  <p>• 简单使用</p>
+
+  <p>• 图</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image146.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0695538057742782in”}</p>
+
+  <p>• 红框二选一使用</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image147.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6144258530183726in”}</p>
+
+  <p>• 锁</p>
+
+  <p>• 加锁</p>
+
+  <p>• 静态方法时:</p>
+
+  <p>• 二选一</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image148.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7279647856517936in”}</p>
+
+  <p>• 加锁位置</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image149.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+  <p>• todo</p>
+
+  <p>• 互斥锁,即锁的全称?</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image150.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3686045494313211in”}</p>
+
+  <p>• 释放锁结合运行⑦态图理解</p>
+
+  <p>• 图</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image151.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9393383639545057in”}</p>
+
+  <p>• 图</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image152.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8622845581802274in”}</p>
+
+  <p>• 优化:优先使用同步代码块,锁范围更小,性能可能更高</p>
+
+  <p>• 局限</p>
+
+  <p>• 图</p>
+
+  <p>• 最好直接使用concurrent包</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image153.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.870252624671916in”}</p>
+
+  <p>• 注意</p>
+
+  <p>• sleep()方法</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image154.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.837179571303587in”}</p>
+</blockquote>
+
+<ul>
+  <li>new ReentrantLock()更精细控制的锁</li>
+</ul>
+
+<blockquote>
+  <p>• 对比</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image155.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5218252405949257in”}</p>
+</blockquote>
+
+<h3 id="思考">思考</h3>
+
+<ul>
+  <li>能否在临界点才执行同步机制?如1w张票64线程并发获取.在最后1000张才对票仓类加同步锁这样是否可以提高并发性能?</li>
+</ul>
+
+<blockquote>
+  <p>• 解法1</p>
+
+  <p>• 对象锁</p>
+
+  <p>• 1w张票
+9000张无锁剩下1000张票对ticket对象加上synchronized关键词,调用反射方法?运行时动态生成?</p>
+
+  <p>• 分段锁?</p>
+</blockquote>
+
+<h1 id="iotodo对应os中的-persistence">IO//todo对应OS中的 Persistence</h1>
+
+<h2 id="文件-文件-list-paragraph">文件 {#文件 .list-paragraph}</h2>
+
+<h3 id="创建文件">创建文件</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image156.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9681167979002625in”}</p>
+
+  <p>• 1</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image157.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3195844269466317in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image158.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0797703412073492in”}</p>
+
+  <p>• 2</p>
+
+  <p>• 图</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image159.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.7125984251968505in”}</p>
+
+  <p>• 3</p>
+</blockquote>
+
+<h3 id="读取文件信息如inode-的数据结构">读取文件信息如inode 的数据结构</h3>
+
+<ul>
+  <li>用例</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image160.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8940616797900263in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image161.png" alt="desc" />{width=”1.9586614173228347in”
+height=”2.106299212598425in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 2</li>
+</ul>
+
+<h2 id="目录-目录-list-paragraph">目录 {#目录 .list-paragraph}</h2>
+
+<h3 id="创建目录">创建目录</h3>
+
+<ul>
+  <li>用例</li>
+</ul>
+
+<blockquote>
+  <p>• 图</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image162.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0454735345581803in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image163.png" alt="desc" />{width=”1.8700787401574803in”
+height=”0.9251968503937008in”}</p>
+</blockquote>
+
+<h3 id="删除目录">删除目录</h3>
+
+<ul>
+  <li>F.delete();</li>
+</ul>
+
+<h3 id="查询目录是否存在">查询目录是否存在</h3>
+
+<ul>
+  <li>F.exists();</li>
+</ul>
+
+<h3 id="修改目录">修改目录</h3>
+
+<h2 id="io流用的不是特别多-同级别io操作不少事基于db-sql层的db即是一个高级的filesystem-io流用的不是特别多-同级别io操作不少事基于db-sql层的db即是一个高级的filesystem-list-paragraph">IO流用的不是特别多, 同级别IO操作不少事基于DB-SQL层的DB即是一个高级的FileSystem {#io流用的不是特别多-同级别io操作不少事基于db-sql层的db即是一个高级的filesystem .list-paragraph}</h2>
+
+<h3 id="in--out-是相对于jvm-与-io-的关系">In , Out 是相对于JVM 与 IO 的关系</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image164.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2464654418197725in”}</p>
+</blockquote>
+
+<h3 id="字节如图片视频可执行文件">字节:如图片,视频,可执行文件</h3>
+
+<ul>
+  <li>InputStream</li>
+</ul>
+
+<blockquote>
+  <p>• 方法:</p>
+
+  <p>• .read()</p>
+
+  <p>•
+读取获得到的IO流,读取方式:添加while循环持续读取,文件末尾会读取到-1,read内部存在一个索引index指示器表示读取到字节流的指定位置了</p>
+
+  <p>• 单字节</p>
+
+  <p>• 指定多字节</p>
+
+  <p>•
+从指定字节内偏移量读取指定长度字节偏移量尝尝关联前面的index应用在读取图片如105kb图片一次读取100kb,则最后一次读取为read(image,0,len)</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image165.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1244816272965878in”}</p>
+
+  <p>• read()返回值为读取到的字节长度 , 如此处设置为1024</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image166.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7897134733158355in”}</p>
+</blockquote>
+
+<ul>
+  <li>OutputStream</li>
+</ul>
+
+<blockquote>
+  <p>• 方法</p>
+
+  <p>• .write()</p>
+
+  <p>• 子主题 1</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image167.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4126334208223972in”}</p>
+</blockquote>
+
+<ul>
+  <li>复制</li>
+</ul>
+
+<blockquote>
+  <p>• 图</p>
+
+  <p>• 也许4kb 是个不错的buf值?</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image168.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8754877515310586in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image169.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.736172353455818in”}</p>
+</blockquote>
+
+<h3 id="字符内部unicode自动处理编码">字符内部Unicode自动处理编码</h3>
+
+<ul>
+  <li>结构</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image170.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.968503937007874in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image171.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3897998687664042in”}</p>
+</blockquote>
+
+<ul>
+  <li>字符输入</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image172.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.44819772528433943in”}</p>
+
+  <p>• 子主题 2</p>
+</blockquote>
+
+<ul>
+  <li>字符输出</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image173.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7363768591426072in”}</p>
+</blockquote>
+
+<h2 id="处理流包装流-处理流包装流-list-paragraph">处理流/包装流 {#处理流包装流 .list-paragraph}</h2>
+
+<h3 id="概念-6">概念</h3>
+
+<ul>
+  <li>设计模式:装饰器模式</li>
+</ul>
+
+<blockquote>
+  <p>• 简单实现</p>
+
+  <p>• 抽象父类</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 两个方法可以写为一个,多态自动重载</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image174.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3911220472440945in”}</p>
+
+  <p>• 子类</p>
+
+  <p>• 节点流</p>
+
+  <p>• 字节读取</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image175.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.44797462817147854in”}</p>
+
+  <p>• 字符读取</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image176.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4463724846894138in”}</p>
+
+  <p>• 包装类</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image177.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7577023184601924in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image178.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.128523622047244in”}</p>
+
+  <p>• 使用:</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image179.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.31116141732283464in”}</p>
+</blockquote>
+
+<ul>
+  <li>产生原因</li>
+</ul>
+
+<blockquote>
+  <p>• 将多个不同类型的节点流整合为一个包装流</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image180.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7398709536307961in”}</p>
+
+  <p>•</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image181.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3216819772528434in”}</p>
+</blockquote>
+
+<h2 id="性能blocking-ionon-blocking-ionio--aio需要os-的-基本io知识-作为前置-性能blocking-ionon-blocking-ionio-aio需要os-的-基本io知识-作为前置-list-paragraph">性能blocking IOnon-blocking IONIO / AIO需要OS 的 基本IO知识 作为前置 {#性能blocking-ionon-blocking-ionio-aio需要os-的-基本io知识-作为前置 .list-paragraph}</h2>
+
+<h3 id="子主题-1">子主题 1</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image182.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9459383202099737in”}</p>
+</blockquote>
+
+<ul>
+  <li>why buffer?</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image183.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8737062554680665in”}</p>
+</blockquote>
+
+<h3 id="后来的linux-的-新的io接口-使用了-kernel-user-共用缓冲区-更高效了">后来的Linux 的 新的IO接口 使用了 Kernel-User 共用缓冲区, 更高效了</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image184.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4498895450568678in”}</p>
+</blockquote>
+
+<h3 id="blocking-io">blocking IO</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image185.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2702701224846894in”}</p>
+</blockquote>
+
+<ul>
+  <li>用户进程会一直等待,即进程进入waitting 状态</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image186.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3099409448818897in”}</p>
+
+  <p>• ready 和running 可以归为 一类状态</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image187.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.691729002624672in”}</p>
+</blockquote>
+
+<ul>
+  <li>单个线程sleep 百分比太多. 而且线程越来越多.
+    <blockquote>
+      <p>线程上下文切换越来越频繁,内存占用越来越多</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image188.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5526421697287839in”}</p>
+</blockquote>
+
+<h3 id="non-blocking-io">non-blocking IO</h3>
+
+<ul>
+  <li>这立马带来一个问题:
+    <blockquote>
+      <p>线程完全不知道合适可以获取到请求的资源,就已经再做后面的操作了.
+需要从程序员角度编写异步代码,提前告知OS. 我待会儿要用到xxx资源.
+Kernel 缓冲区现在没有线程要得资源,告知没有线程反复请求,
+造成了大量的Kernel mode 和User mode 的切换编程思路产生了改变</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image189.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.587412510936133in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 2</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image190.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8003827646544182in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image191.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.00459864391951in”}</p>
+
+  <p>• 应用场景有哪些??</p>
+
+  <p>• 子主题 1</p>
+</blockquote>
+
+<h3 id="io-multiplexingtodo">IO Multiplexing//todo</h3>
+
+<ul>
+  <li>是否有些像线程池? 不过现在是IO池??</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image192.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.12261373578302712in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image193.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9091940069991251in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image194.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.339374453193351in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image195.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4869389763779528in”}</p>
+
+  <p>• 子主题 4</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image196.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7599004811898513in”}</p>
+</blockquote>
+
+<h3 id="asynconous-io">Asynconous IO</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image197.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3742147856517935in”}</p>
+
+  <p>•
+即告诉内核要一个IO操作,然后这个进程就去做其他不需要这个IO操作的其他事情,kernel会通知和送达IO数据回来此时可以发现**进程没有waitting状态.
+仍然是ready或者running状态**</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image198.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4734372265966754in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image199.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3188582677165355in”}</p>
+
+  <p>• 现在2023 Linux都 6,x 了. 已经有成熟的AIO模型</p>
+
+  <p><img src="/assets/imgs/java/media/template_document.xml_image200.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6583672353455818in”}</p>
+</blockquote>
+
+<h3 id="子主题-1-1">子主题 1</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image201.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3632764654418198in”}</p>
+</blockquote>
+
+<h3 id="子主题-7">子主题 7</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image202.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.420501968503937in”}</p>
+</blockquote>
+
+<h3 id="linux-aio-history">Linux AIO history</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image203.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.28050524934383203in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 2</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image204.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4205774278215223in”}</p>
+</blockquote>
+
+<ul>
+  <li>shared mem 看起来挺牛的.少了一次内存复制过程,这其中有安全要考虑</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image205.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8060793963254593in”}</p>
+</blockquote>
+
+<h3 id="java-new-io">Java New IO</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<h1 id="网络编程network-programming需要先理解io的基本概念和实现">网络编程Network Programming需要先理解IO的基本概念和实现</h1>
+
+<h2 id="socket套接字-socket套接字-list-paragraph">Socket套接字 {#socket套接字 .list-paragraph}</h2>
+
+<h3 id="子主题-1-2">子主题 1</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image206.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.7396084864391952in”}</p>
+</blockquote>
+
+<h2 id="子主题-2-子主题-2-list-paragraph">子主题 2 {#子主题-2 .list-paragraph}</h2>
+
+<h3 id="子主题-1-3">子主题 1</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image207.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.14290791776028in”}</p>
+</blockquote>
+
+<h1 id="jvmconcepts-highly-derive-from-os">JVMconcepts highly derive from OS</h1>
+
+<h2 id="main-main-list-paragraph">main {#main .list-paragraph}</h2>
+
+<h3 id="子主题-1-4">子主题 1</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image208.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.7807119422572177in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<h2 id="指令-指令-list-paragraph">指令 {#指令 .list-paragraph}</h2>
+
+<h3 id="子主题-1-5">子主题 1</h3>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image209.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8629702537182852in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image210.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6634186351706036in”}</p>
+</blockquote>
+
+<h2 id="子主题-3-子主题-3-list-paragraph">子主题 3 {#子主题-3 .list-paragraph}</h2>
+
+<h1 id="java版本重要特性演化">JAVA版本重要特性,演化,</h1>
+
+<h2 id="简单发展历史-简单发展历史-list-paragraph">简单发展历史 {#简单发展历史 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="/assets/imgs/java/media/template_document.xml_image211.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8555424321959755in”}</p>
+</blockquote>
+
+<h1 id="take-home-message">Take Home Message</h1>
+
+
+<h3 class="archive__subtitle">Recent posts</h3>
+
+
+
+
+<div class="entries-list">
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/concpets_of_problem_solving/" rel="permalink">Concepts of Problem Solving
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Descartes Scientific Methodology
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software_isolation/" rel="permalink">software_isolation
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Why: Some app is doing unnecessary things or even steal privacy.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/factfulness/" rel="permalink">Factfulness
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Work-Remote/" rel="permalink">Work Remote - Even Cross Country
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">ref: https://space.bilibili.com/4848323
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/init%20blog-website/blog-under-construction/" rel="permalink">blog-under-construction
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Bugs to fix
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software-architect/software-architect/" rel="permalink">Software Architect
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">What is Software Architect
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blockchain/RPC/" rel="permalink">Remote Procedure Call
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">RPC
+local procedure call to RPC
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cg/Computer-Graphics/" rel="permalink">Computer Graphics
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Intro
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/books/books/" rel="permalink">读书的Take Home Message
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">最近读书收获的 Take Home Message（better into 4 mem-chunks）：
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/project/project-oriented/" rel="permalink">解决project上问题的轻重缓急
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">业务驱动开发，驱动学习。
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cs%20fundamentals/CN/" rel="permalink">Computer Network
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Computer Network
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/personal-growth/%E6%97%A5%E6%B8%85%E5%91%A8%E7%BB%93/" rel="permalink">日清周结
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">每日的计划和执行：
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/The-Pragmatic-Programmer/" rel="permalink">The Pragmatic Programmer
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">The Pragmatic Programmer
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/personal-growth/Live-with-difficult-and-fear/" rel="permalink">Live with diffcult
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Descartes’ scientific methodology, which is a useful way to approach complex problems and seek the truth.
+However, I understand that sometimes you may encoun...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Entropy__The-Most-Misunderstood-Concept-in-Physics/" rel="permalink">Entropy: The Most Misunderstood Concept in Physics
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">url: https://youtu.be/DxL2HoqLbyA
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/My-outlook-on-values/" rel="permalink">My outlook on values
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">年轻永远是最宝贵的财富
+</p>
+  </article>
+</div>
+
+  
+</div>
+
+
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 白桃乌龙. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

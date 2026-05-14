@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-05-14T07:26:57+00:00</updated><id>/feed.xml</id><title type="html">btwl`s Blog</title><subtitle>I think ,therefore I am.</subtitle><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><entry><title type="html">Concepts of Problem Solving</title><link href="/concpets_of_problem_solving/" rel="alternate" type="text/html" title="Concepts of Problem Solving" /><published>2023-08-31T00:00:00+00:00</published><updated>2023-08-31T00:00:00+00:00</updated><id>/concpets_of_problem_solving</id><content type="html" xml:base="/concpets_of_problem_solving/"><![CDATA[<h1 id="descartes-scientific-methodology">Descartes Scientific Methodology</h1>
+
+<h1 id="first-principles-thinking">First Principles Thinking</h1>
+
+<p>Elon Musk says that first principles thinking<br />
+is a way of reasoning from the most basic truths.<br />
+for example: use newton 3 laws and calculus make a steam engine.
+use turing machine build AI?<br />
+use von-neuman computation architecuture build a application ?</p>
+
+<h1 id="principles-of-problem-solving-from-stewart-calculus">Principles of Problem Solving (from Stewart Calculus)</h1>
+
+<p>Goal:</p>
+
+<p>“Accordingly, a modified version of Polya’s four-stage problem-
+solving strategy is presented following Chapter 1 in Principles of Problem Solving.”</p>
+
+<h1 id="how-to-solve-it-from-george-polya">How to Solve It (from George Polya)</h1>
+
+<p>” As a student of George Polya, James Stewart experienced first-hand Polya’s delightful and penetrating insights into the process
+of problem solving.”</p>
+
+<p>tackle challenging ~ endeavor ~ strive~to devote serious effort or energy</p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><summary type="html"><![CDATA[Descartes Scientific Methodology]]></summary></entry><entry><title type="html">software_isolation</title><link href="/software_isolation/" rel="alternate" type="text/html" title="software_isolation" /><published>2023-08-16T00:00:00+00:00</published><updated>2023-08-16T00:00:00+00:00</updated><id>/software_isolation</id><content type="html" xml:base="/software_isolation/"><![CDATA[<h1 id="why-some-app-is-doing-unnecessary-things-or-even-steal-privacy">Why: Some app is doing unnecessary things or even steal privacy.</h1>
+
+<ol>
+  <li>Monitoring user behaviour: sensitive io files, sensitive upload user privacy file.</li>
+  <li>adding ads to system: shortcuts, windows registery, set it self auto run.</li>
+</ol>
+
+<h1 id="abstraction-the-virtualization">Abstraction: the Virtualization</h1>
+
+<p>such as virtual-cpu(architect-agnostic), vmware, docker(really powerful), and sandboixe , windows buildin sanbox.</p>
+
+<h2 id="all-the-similar-goal-">all the similar goal :</h2>
+
+<p>provide a virtual env for apps to run . not effect host machine env.</p>
+
+<h1 id="solution-for-win10">Solution for Win10:</h1>
+
+<ol>
+  <li>Sandboxie</li>
+</ol>
+
+<p>pros:
+Usage: https://sspai.com/post/59465#!</p>
+
+<p>cons: <img src="image-26.png" alt="Alt text" /></p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><summary type="html"><![CDATA[Why: Some app is doing unnecessary things or even steal privacy.]]></summary></entry><entry><title type="html">Factfulness</title><link href="/factfulness/" rel="alternate" type="text/html" title="Factfulness" /><published>2023-08-15T00:00:00+00:00</published><updated>2023-08-15T00:00:00+00:00</updated><id>/factfulness</id><content type="html" xml:base="/factfulness/"><![CDATA[<p><img src="image-27.png" alt="Alt text" /></p>
+
+<p><img src="image-28.png" alt="Alt text" /></p>
+
+<p><img src="image-29.png" alt="Alt text" /></p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Work Remote - Even Cross Country</title><link href="/Work-Remote/" rel="alternate" type="text/html" title="Work Remote - Even Cross Country" /><published>2023-08-10T00:00:00+00:00</published><updated>2023-08-10T00:00:00+00:00</updated><id>/Work%20Remote</id><content type="html" xml:base="/Work-Remote/"><![CDATA[<p>ref: https://space.bilibili.com/4848323</p>
+
+<h1 id="1-why">1. Why</h1>
+
+<p>提炼关键:<strong>地理套利</strong><br />
+做一样的工作(唯一可能语言不同),但是<br />
+如微软 41 级:<br />
+中国程序员 45w RMB. 美国程序员 20w USD</p>
+
+<h1 id="长期主义">长期主义</h1>
+
+<h1 id="2-english">2. English</h1>
+
+<p>把自己浸泡在英语里面<br />
+即外界和内界<br />
+衣食住行,工作学习全都可以大胆尝试英文<br />
+思考也可以是英文,写作业可以是英文<br />
+找机会做英语口语交流</p>
+
+<h1 id="3-connection-to-people">3. Connection to people</h1>
+
+<p>也是一个 浸泡<br />
+参与项目的力所能及的方面,让别人知道你这个人.<br />
+邮件来往,多探索交流</p>
+
+<h1 id="行业">行业</h1>
+
+<h2 id="web3">Web3</h2>
+
+<p><img src="image-25.png" alt="Alt text" /></p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><summary type="html"><![CDATA[ref: https://space.bilibili.com/4848323]]></summary></entry><entry><title type="html">blog-under-construction</title><link href="/init%20blog-website/blog-under-construction/" rel="alternate" type="text/html" title="blog-under-construction" /><published>2023-08-02T00:00:00+00:00</published><updated>2023-08-02T00:00:00+00:00</updated><id>/init%20blog-website/blog-under-construction</id><content type="html" xml:base="/init%20blog-website/blog-under-construction/"><![CDATA[<h2 id="bugs-to-fix">Bugs to fix</h2>
+
+<h2 id="urgent"><strong>urgent</strong></h2>
+
+<ol>
+  <li>
+    <p>(fixed) article pictures display</p>
+  </li>
+  <li>
+    <p>cant show space at each newline, every newline begining with no space.<br />
+i dont know how to set it yet.</p>
+  </li>
+  <li>
+    <p><strong>directory generate and show</strong><br />
+(desktop view)and always make the diretory float at top right when scrolling down.<br />
+(mobile view)show a little floating icon to display and nav diretory.<br />
+directory should auto generate from .md file</p>
+  </li>
+</ol>
+
+<p>after finish this, I can upload all my blogs and pictures within.</p>
+
+<h2 id="optimize"><strong>optimize</strong></h2>
+
+<p>3.(fixed half)beautify fonts,both eng and chs<br />
+mobile works,desktop not .</p>
+
+<p>(fixed)textbox margins must have:<br />
+article layout, show article at the middle verticle area.<br />
+left personal info , right article directory</p>
+
+<p>(mobile view)article margin need some blank</p>
+
+<p>4.article categories show at article bottom(分类,归档), and at the top nav bar click categories could find any specific category.</p>
+
+<p>4.nav-header</p>
+
+<p>5.(fixed)emoji? how ? markdown emoji?</p>
+
+<p>6.visiter comment under the article .</p>
+
+<p>7.block visit via QQ , WeChat integreted browser,bcz this may cause Tencent tag my site as danger site, but fact is ,it never be.</p>
+
+<p>8.(fixed)at home page , only 5 artile a page .<br />
+shou be more like 15 will be prefer</p>
+
+<p>9.auto convert normal .md to jekyll .md<br />
+with filename-dates and — — include metadatas ,at the begin of every blog , use for classify and title display.</p>
+
+<p>10.click in each blog show its post date</p>
+
+<h2 id="optional">optional</h2>
+
+<p>github pages workflow<br />
+everytime i push to remote-git .<br />
+the github will automatic build the github-jekyll-pages,<br />
+but it takes about 100s to build . maybe somehow optimize the time</p>
+
+<p>1.add visitors record,<br />
+2.free to leave a msg.</p>
+
+<p>I have some notes locally .<br />
+ wait to upload to The Internet~<br />
+That will be a cool thing:
+the notes include:
+CS tech, society,humanity,personal growth,history, and all the intersting facts and thoughts worth to check it out!<br />
+but some of it is format of xmind. need convert to docx and then convert to .md with file and jekyll .md format info.<br />
+now still trying to make this workflow automatic to a program with scripts.</p>
+
+<p>Once these notes is tracked by git , that will be a great thing~ I love it !</p>
+
+<p>I`m learning the style same like https://xxchan.me/ her blog-website. (from the best teacher~)</p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><category term="init Blog-website" /><summary type="html"><![CDATA[Bugs to fix]]></summary></entry><entry><title type="html">Remote Procedure Call</title><link href="/blockchain/RPC/" rel="alternate" type="text/html" title="Remote Procedure Call" /><published>2023-07-23T00:00:00+00:00</published><updated>2023-07-23T00:00:00+00:00</updated><id>/blockchain/RPC</id><content type="html" xml:base="/blockchain/RPC/"><![CDATA[<p>RPC<br />
+local procedure call to RPC</p>
+
+<p>grpc</p>
+
+<p>什么时候、什么场景必用 RPC 吗？<br />
+tradeoff 是什么？</p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><category term="BlockChain" /><summary type="html"><![CDATA[RPC local procedure call to RPC]]></summary></entry><entry><title type="html">Software Architect</title><link href="/software-architect/software-architect/" rel="alternate" type="text/html" title="Software Architect" /><published>2023-07-23T00:00:00+00:00</published><updated>2023-07-23T00:00:00+00:00</updated><id>/software-architect/software-architect</id><content type="html" xml:base="/software-architect/software-architect/"><![CDATA[<h1 id="what-is-software-architect">What is Software Architect</h1>
+
+<p><img src="image-24.png" alt="Alt text" /></p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><category term="software-architect" /><summary type="html"><![CDATA[What is Software Architect]]></summary></entry><entry><title type="html">Computer Graphics</title><link href="/cg/Computer-Graphics/" rel="alternate" type="text/html" title="Computer Graphics" /><published>2023-07-22T00:00:00+00:00</published><updated>2023-07-22T00:00:00+00:00</updated><id>/cg/Computer-Graphics</id><content type="html" xml:base="/cg/Computer-Graphics/"><![CDATA[<h1 id="intro">Intro</h1>
+
+<p><strong>Computer Graphics defination:</strong></p>
+
+<p>Describes any use of computers to <strong>create</strong> and <strong>manipulate</strong> images.</p>
+
+<p>We study the standard teminology and concepts of CG, which can <strong>map</strong> nicely to most actual API (computer hardware and software combination enviroment).</p>
+
+<h2 id="graphics-areas">Graphics Areas</h2>
+
+<p><strong>Modeling</strong> deals with the mathematical specification of shape and appearance properties in a way that can be <strong>stored on the computer</strong>.<br />
+<strong>Rendering</strong> is a term inherited from art and deals with the creation of <strong>shaded images</strong> from 3D computer models. Also, rendering is a process that generates a 2D or 3D image from a model.<br />
+ <img src="/image-1.png" alt="Alt text" /><br />
+<strong>Animation</strong> is a technique to create an illusion of motion through sequences of images. Animation uses modeling and rendering but adds the key issue of movement over time, which is not usually dealt with in basic modeling and rendering.</p>
+
+<h2 id="homogeneous-coordinate-system">Homogeneous coordinate System</h2>
+
+<p>齐次坐标可让包括无穷远点的点坐标以有限坐标表示</p>
+
+<h2 id="perspective-projection">Perspective Projection</h2>
+
+<p><img src="image-2.png" alt="Alt text" /><br />
+<img src="image-1.png" alt="Alt text" /></p>
+
+<h2 id="rasterization">Rasterization</h2>
+
+<p>pixels:<br />
+<img src="image-3.png" alt="Alt text" /></p>
+
+<p><img src="image-4.png" alt="Alt text" /><br />
+Question:
+<img src="image-5.png" alt="Alt text" /><br />
+Some Approach:
+<img src="image-6.png" alt="Alt text" /><br />
+<img src="image-7.png" alt="Alt text" /></p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><category term="CG" /><summary type="html"><![CDATA[Intro]]></summary></entry><entry><title type="html">读书的Take Home Message</title><link href="/books/books/" rel="alternate" type="text/html" title="读书的Take Home Message" /><published>2023-07-17T00:00:00+00:00</published><updated>2023-07-17T00:00:00+00:00</updated><id>/books/books</id><content type="html" xml:base="/books/books/"><![CDATA[<p>最近读书收获的 Take Home Message（better into 4 mem-chunks）：</p>
+
+<h1 id="非技术类书籍">非技术类书籍</h1>
+
+<h2><心流:最优心里体验></心流:最优心里体验></h2>
+
+<p>最喜欢的序：序二《心流人生：一曲冰与火之歌》<br />
+心熵：心中的信息熵状态。<br />
+混乱的时候：<br />
+ 潜意识里，却有多得多的念头在相互冲突，在争夺
+你的注意力，在抢夺你大脑的控制权，在试图引导、影响你往南辕北辙的方
+向走<br />
+心流的时候：<br />
+ 这时候，你的感觉就跟“心流”这个词的英文flow原意一样，心里的念头
+就像一条钢铁洪流，浩浩荡荡但是又井然有序，势不可当但是又能从你心所
+欲，喷涌而出但是又不会四处洒落，而是汇聚成一条水龙，冲荡开一切泥石
+沙砾，创造、奋斗、整合，你不需要特意去控制这个过程，但一切又都在你
+的控制之中。正如契克森米哈赖所总结的，这就是最优体验。</p>
+
+<h2 id="-1"><我们为什么要睡觉></我们为什么要睡觉></h2>
+
+<p>todo</p>
+
+<h2 id="-2"><人类简史></人类简史></h2>
+
+<p>关于近代史大约1600-1900的部分.科技和人文的发展</p>
+
+<h2 id="-3"><全球科技通史></全球科技通史></h2>
+
+<p>同样关于近代史的部分,美中不足科技方面电磁和电力介绍得太少</p>
+
+<h2 id="-paul-graham"><黑客与画家> Paul Graham</黑客与画家></h2>
+
+<p>关于一些不想被看到的内容,以及求真
+还有其他的重要地方,没读完.todo</p>
+
+<h2 id="-4"><务实程序员></务实程序员></h2>
+
+<p>内容很棒，todo。</p>
+
+<h2 id="-林语堂"><苏东坡传>-林语堂</苏东坡传></h2>
+
+<h2 id="-5"><自控力></自控力></h2>
+
+<h1 id="有待阅读">有待阅读</h1>
+
+<p>艺术哲学。<br />
+《疯癫与文明》：阅读这本先读戴老师的视频和文字，有目的去读。<br />
+寻找一些物理史的科普书籍。</p>
+
+<p>卡夫卡的书籍？也需要导读和目的去读。<br />
+红楼梦？同上。<br />
+《全球通史》有点多，选读吧。<br />
+关于社会主义和共产主义的书籍，需要导读和选读。</p>
+
+<h2 id="-6"><被讨厌的勇气></被讨厌的勇气></h2>
+
+<p>one of favorites of my books</p>
+
+<h2 id="-7"><肖申克的救赎></肖申克的救赎></h2>
+
+<p>one of favorites of my books<br />
+中读完了,英读了一点点</p>
+
+<h2 id="-隐藏的意识">&lt; 隐藏的意识&gt;</h2>
+
+<p>有点忘完了</p>
+
+<h2 id="-8"><人间值得></人间值得></h2>
+
+<p>特别简单质朴的文章<br />
+好像大家都知道的道理,<br />
+但是没有特别强的实践方式,<br />
+有点鸡汤文的意思,不确定</p>
+
+<h2 id="-9"><小王子></小王子></h2>
+
+<p>都评价很棒,<br />
+但是有点看不进去
+可能需要换个啥心态?</p>
+
+<h2 id="-10"><自私的基因></自私的基因></h2>
+
+<p>大多读不懂,但肯定有有价值的部分.需要筛选</p>
+
+<h1 id="技术类书籍">技术类书籍:</h1>
+
+<h2 id="-operating-systems-principle-and-practiceospp">&lt; Operating Systems Principle and Practice&gt;OSPP</h2>
+
+<p>有点忘了.复习一下</p>
+
+<h1 id="以前读的书籍">以前读的书籍</h1>
+
+<h2 id="-11"><杀死一只知更鸟></杀死一只知更鸟></h2>
+
+<p>还有一丢丢没读完</p>
+
+<h2 id="-12"><活着></活着></h2>
+
+<h2 id="-13"><追风筝的人></追风筝的人></h2>
+
+<p>读完了,值得再读.</p>
+
+<h2 id="-14"><灿烂千阳></灿烂千阳></h2>
+
+<p>没读完,</p>
+
+<h2 id="-川端康成"><雪国>-川端康成</雪国></h2>
+
+<p>好! 有一种意境和感觉,</p>
+
+<h2 id="还有记不得了todo">还有记不得了,todo</h2>
+
+<h1 id="最近的优质课程">最近的优质课程</h1>
+
+<h2 id="coursera--learning-how-to-learn--">coursera: &lt; Learning how to learn&gt; -</h2>
+
+<p>Barbara Oakey<br />
+my favorites,most useful.</p>
+
+<h2 id="b站-古城算法-leetcode速通面向工作和面试的lc">B站 古城算法. LeetCode速通,面向工作和面试的LC</h2>
+
+<h2 id="-cs61abc-">&lt; CS61A,B,C &gt;</h2>
+
+<p>my favorites</p>
+
+<h2 id="-cs50-cs50-web--2023-edition">&lt; CS50 ,CS50-web &gt;-2023-edition</h2>
+
+<p>compact and useful!</p>
+
+<h2 id="黑马-redis">黑马-Redis</h2>
+
+<p>现有代码做过优化<br />
+有些功能不足,有待去自己探索补全</p>
+
+<h2 id="谷粒学院">谷粒学院</h2>
+
+<p>有些代码写得不好,但是自己可以优化,</p>
+
+<h1 id="以前的优质课程">以前的优质课程</h1>
+
+<h2 id="-cmu15-445-andy-pavlo">&lt; CMU15-445&gt;-Andy Pavlo</h2>
+
+<h2 id="mit-os">MIT-OS</h2>
+
+<h2 id="stanfor-cs144">Stanfor-CS144</h2>
+
+<h2 id="湖科大-计算机网络">湖科大-计算机网络</h2>
+
+<h2 id="todo还有些记不得了">todo.还有些记不得了</h2>
+
+<h1 id="电影">电影</h1>
+
+<h2 id="宫崎骏老师所有作品">宫崎骏老师所有作品</h2>
+
+<p>favorites:全都喜欢!</p>
+
+<h2 id="christopher-nolan作品">Christopher Nolan作品:</h2>
+
+<h2 id="蝙蝠侠黑暗骑士崛起">蝙蝠侠：黑暗骑士崛起</h2>
+
+<h2 id="盗梦空间">盗梦空间,</h2>
+
+<p>非常喜欢inception : 意识植入这个概念!</p>
+
+<h2 id="记忆碎片">记忆碎片?</h2>
+
+<p>没看懂,不是很吸引我</p>
+
+<h2 id="致命魔术">致命魔术</h2>
+
+<p>第一次看很好看!</p>
+
+<h2 id="星际穿越">星际穿越</h2>
+
+<p>my favories!</p>
+
+<h2 id="待看-敦刻尔克">待看: 敦刻尔克</h2>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><category term="books" /><summary type="html"><![CDATA[最近读书收获的 Take Home Message（better into 4 mem-chunks）：]]></summary></entry><entry><title type="html">解决project上问题的轻重缓急</title><link href="/project/project-oriented/" rel="alternate" type="text/html" title="解决project上问题的轻重缓急" /><published>2023-07-09T00:00:00+00:00</published><updated>2023-07-09T00:00:00+00:00</updated><id>/project/project-oriented</id><content type="html" xml:base="/project/project-oriented/"><![CDATA[<p>业务驱动开发，驱动学习。</p>
+
+<p>暂时很难解决的问题：<br />
+首先遇到麻烦困难的问题，先判断其价值。<br />
+是否必须去解决，<strong>才能实现我想要的功能</strong>？以及有无其他更高效简单的办法？<br />
+project 的核心功能是什么？实现得怎么样了？</p>
+
+<p>什么是快速试错？</p>
+
+<p>不同阶段思维深度不同。<br />
+前期要求迅速实现业务；<br />
+后期可能有空才研究实现原理。<br />
+前期后期之间需要记录问题并归档，有时间再来解决细枝末节的问题。</p>
+
+<p><img src="/assets/image-1.png" alt="Alt text" /></p>]]></content><author><name>白桃乌龙</name><email>1253102853@qq.com</email></author><category term="project" /><summary type="html"><![CDATA[业务驱动开发，驱动学习。]]></summary></entry></feed>

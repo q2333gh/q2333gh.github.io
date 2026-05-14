@@ -1,0 +1,2470 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Computer Network - btwl`s Blog</title>
+<meta name="description" content="Computer Network">
+
+
+  <meta name="author" content="白桃乌龙">
+  
+  <meta property="article:author" content="白桃乌龙">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="btwl`s Blog">
+<meta property="og:title" content="Computer Network">
+<meta property="og:url" content="/cs%20fundamentals/CN/">
+
+
+  <meta property="og:description" content="Computer Network">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-07-01T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/cs%20fundamentals/CN/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "白桃乌龙",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="btwl`s Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--home">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          btwl`s Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/year-archive/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/collection-archive/">Collections</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sitemap/">Sitemap</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/">
+        <img src="/assets/imgs/study1.jpg" alt="白桃乌龙" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/" itemprop="url">白桃乌龙</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>I think ,therefore I am.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://github.com/q2333gh" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:1253102853@qq.com" rel="me" class="u-email">
+            <meta itemprop="email" content="1253102853@qq.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Computer Network</h1>
+    
+    <p><strong>Computer Network</strong></p>
+
+<h1 id="概览">概览</h1>
+
+<h2 id="类比理解-类比理解-list-paragraph">类比理解 {#类比理解 .list-paragraph}</h2>
+
+<h3 id="物理层-公路修建网络层-地图导航路径规划传输层-行驶在路上的汽车应用层-收发快递的人路径规划-arpip-层和传输规则-tcptcp-层是面试常问内容">物理层-&gt;公路修建；网络层-&gt;地图导航路径规划；传输层-&gt;行驶在路上的汽车；应用层-&gt;收发快递的人。路径规划 ARP，IP 层和传输规则 TCP（TCP 层是面试常问内容）。</h3>
+
+<ul>
+  <li>
+    <p>公路是单行道还是双行道？TCP。</p>
+  </li>
+  <li>
+    <p>如何找到最优路径，即地图软件如何找到最短路径？是图算法吗？DFS、BFS？</p>
+
+    <blockquote>
+      <p>走迷宫?一条路坏了如何走另一条路?ARP</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>汽车行驶参数有很多：如多辆车、多大的车、堵车怎么办？汽车上面装了用户家里给不同人的物品，如有 ps5 给 A、有鲜花给 B-&gt;(端口)TCP。</p>
+  </li>
+</ul>
+
+<h3 id="封装过程像是多个压栈解包过程像是多个出栈">封装过程像是多个压栈，解包过程像是多个出栈。</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image1.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.522354549431321in”}</p>
+</blockquote>
+
+<h2 id="数据包格式-数据包格式-list-paragraph">数据包格式 {#数据包格式 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image2.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9875995188101487in”}</p>
+</blockquote>
+
+<h2 id="http-http-list-paragraph">HTTP {#http .list-paragraph}</h2>
+
+<h3 id="os负责端口转发给指定端口接收程序">OS负责端口转发给指定端口接收程序</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image3.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3388910761154855in”}</p>
+</blockquote>
+
+<h2 id="图-图-list-paragraph">图 {#图 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image4.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.39137576552930886in”}</p>
+</blockquote>
+
+<ul>
+  <li>端口号</li>
+</ul>
+
+<blockquote>
+  <p>• 2\^16: 每一台电脑可以有65535个端口</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image5.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7523600174978128in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image6.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4701881014873142in”}</p>
+</blockquote>
+
+<h2 id="图-图-1-list-paragraph">图 {#图-1 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image7.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1035553368328959in”}</p>
+</blockquote>
+
+<h2 id="简单流程-简单流程-list-paragraph">简单流程 {#简单流程 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image8.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9438385826771654in”}</p>
+</blockquote>
+
+<h3 id="应用层">应用层</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image9.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9063199912510936in”}</p>
+</blockquote>
+
+<h3 id="运输层">运输层</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image10.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5230993000874891in”}</p>
+</blockquote>
+
+<h3 id="网络层">网络层</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image11.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6614599737532808in”}</p>
+</blockquote>
+
+<h3 id="数据链路层">数据链路层</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image12.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6899420384951882in”}</p>
+</blockquote>
+
+<h3 id="物理层-编码">物理层: 编码</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image13.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5632589676290464in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image14.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7294728783902013in”}</p>
+</blockquote>
+
+<h2 id="组成-组成-list-paragraph">组成 {#组成 .list-paragraph}</h2>
+
+<h3 id="总览">总览</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image15.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3870297462817147in”}</p>
+</blockquote>
+
+<h3 id="实体">实体</h3>
+
+<h3 id="协议">协议</h3>
+
+<ul>
+  <li>
+    <p>语法:即 构成一句话的元素</p>
+  </li>
+  <li>
+    <p>语义:即 逻辑上要做什么事情</p>
+  </li>
+</ul>
+
+<h3 id="服务">服务</h3>
+
+<ul>
+  <li>概览</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image16.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0448392388451444in”}</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image17.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3717060367454068in”}</p>
+
+  <p>• Protocol Data UnitService Data Unit</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image18.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0496270778652668in”}</p>
+</blockquote>
+
+<h2 id="cn-by-scales-cn-by-scales-list-paragraph">CN by scales {#cn-by-scales .list-paragraph}</h2>
+
+<h3 id="子主题-1">子主题 1</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image19.png" alt="desc" />{width=”1.968503937007874in”
+height=”4.040917541557305in”}</p>
+</blockquote>
+
+<h1 id="网络分层">网络分层</h1>
+
+<h2 id="原因层次化之后设计也变得相对简单了处于应用层上的应用可以只考虑分派给自己的任务而不需要弄清对方在地球上哪个地方对方的传输路线是怎样的是否能确保传输送达等问题-原因层次化之后设计也变得相对简单了处于应用层上的应用可以只考虑分派给自己的任务而不需要弄清对方在地球上哪个地方对方的传输路线是怎样的是否能确保传输送达等问题-list-paragraph">原因:层次化之后，设计也变得相对简单了。处于应用层上的应用可以只考虑分派给自己的任务，而不需要弄清对方在地球上哪个地方、对方的传输路线是怎样的、是否能确保传输送达等问题。 {#原因层次化之后设计也变得相对简单了处于应用层上的应用可以只考虑分派给自己的任务而不需要弄清对方在地球上哪个地方对方的传输路线是怎样的是否能确保传输送达等问题 .list-paragraph}</h2>
+
+<h2 id="概览-概览-1-list-paragraph">概览 {#概览-1 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image20.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8056747594050744in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image21.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9101399825021872in”}</p>
+</blockquote>
+
+<h2 id="子主题-5-子主题-5-list-paragraph">子主题 5 {#子主题-5 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image22.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.83417104111986in”}</p>
+</blockquote>
+
+<h2 id="子主题-5-子主题-5-1-list-paragraph">子主题 5 {#子主题-5-1 .list-paragraph}</h2>
+
+<h3 id="网络传输时候的封装与解封装decapsulation">网络传输时候的封装与解封装/decapsulation</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image23.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.0836679790026245in”}</p>
+</blockquote>
+
+<h1 id="性能指标">性能指标</h1>
+
+<h2 id="8个基本指标-个基本指标-list-paragraph">8个基本指标 {#个基本指标 .list-paragraph}</h2>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image24.png" alt="desc" />{width=”0.6988188976377953in”
+height=”2.982283464566929in”}</p>
+</blockquote>
+
+<h3 id="速率">速率</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image25.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5656036745406824in”}</p>
+</blockquote>
+
+<ul>
+  <li>注意数据量和速率的差别,但是粗略计算也可以约分</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image26.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4626224846894138in”}</p>
+</blockquote>
+
+<h3 id="带宽">带宽</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image27.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9171751968503937in”}</p>
+</blockquote>
+
+<h3 id="吞吐量">吞吐量</h3>
+
+<ul>
+  <li>指 根据带宽得到的实际测量值</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image28.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7773064304461942in”}</p>
+</blockquote>
+
+<ul>
+  <li>木桶效应</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image29.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6358442694663167in”}</p>
+</blockquote>
+
+<h3 id="时延">时延</h3>
+
+<ul>
+  <li>不同网卡有不同性能,内可能还有排队时延</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image30.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9563757655293088in”}</p>
+</blockquote>
+
+<ul>
+  <li>简单计算题帮助理解</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image31.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8097856517935258in”}</p>
+</blockquote>
+
+<h3 id="小总结">小总结</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image32.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.306370297462817in”}</p>
+</blockquote>
+
+<h3 id="时延带宽积">时延带宽积</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image33.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.953076334208224in”}</p>
+</blockquote>
+
+<h3 id="往返时间与常说的延迟有关如65ms">往返时间与常说的延迟有关如65ms</h3>
+
+<ul>
+  <li>双向交互时间:从发送到接收时间段计时</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image34.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0178608923884513in”}</p>
+</blockquote>
+
+<h3 id="利用率">利用率</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image35.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0229844706911635in”}</p>
+</blockquote>
+
+<h3 id="丢包率">丢包率</h3>
+
+<ul>
+  <li>路由器对列即将满,则丢弃收到的包,丢弃的原因:为了不让队列无限增大.不然后来的数据包将无限等待.</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image36.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.926505905511811in”}</p>
+</blockquote>
+
+<ul>
+  <li>加速器的原理就是为用户选择不那么拥塞的网络路径,减少丢包即IP层
+    <blockquote>
+      <p>.路径选择那么TCP层有做什么吗? todo</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="小总结-1">小总结</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image37.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.149491469816273in”}</p>
+</blockquote>
+
+<h1 id="the-internet">the Internet</h1>
+
+<h2 id="consist-of-devices-consist-of-devices-list-paragraph">consist of devices {#consist-of-devices .list-paragraph}</h2>
+
+<h1 id="4-应用层如httpgatewayftp">4 应用层:如HTTP,gateway,FTP,</h1>
+
+<h2 id="概览-概览-2-list-paragraph">概览 {#概览-2 .list-paragraph}</h2>
+
+<h3 id="以及后来的物联网">以及后来的物联网</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image38.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5784875328083989in”}</p>
+</blockquote>
+
+<h2 id="连接方式cs架构p2p架构peer-to-peer-连接方式cs架构p2p架构peer-to-peer-list-paragraph">连接方式:C/S架构p2p架构peer to peer {#连接方式cs架构p2p架构peer-to-peer .list-paragraph}</h2>
+
+<h3 id="在这里有个问题-s总是不知道c还在不在无法检测除非指定c端必须定时检测">在这里有个问题: S总是不知道C还在不在,无法检测,除非指定C端必须定时检测</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image39.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0496795713035871in”}</p>
+</blockquote>
+
+<h3 id="子主题-2">子主题 2</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image40.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7149453193350831in”}</p>
+</blockquote>
+
+<h2 id="browserserver-architecture-browserserver-architecture-list-paragraph">Browser/Server architecture {#browserserver-architecture .list-paragraph}</h2>
+
+<h3 id="proscompare-to-csmainly-is-availableoffer-that-function-to-user">pros:compare to C/Smainly is available:offer that function to user</h3>
+
+<ul>
+  <li>
+    <p>1. always newest and same version . ez to control version</p>
+  </li>
+  <li>
+    <p>2. data centerilizeez to share</p>
+  </li>
+  <li>
+    <p>3. cross platform</p>
+  </li>
+  <li>
+    <p>4. reduce client-side reqs such as *heavy computation give to</p>
+    <blockquote>
+      <p>server *</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="cons">cons</h3>
+
+<ul>
+  <li>secutrity:</li>
+</ul>
+
+<blockquote>
+  <p>•
+transparency用户可以直接f12查看大量内部接口和逻辑C/S架构则是经过编译完成的二进制文件</p>
+</blockquote>
+
+<h2 id="http-http-1-list-paragraph">HTTP {#http-1 .list-paragraph}</h2>
+
+<h3 id="网站url即网址方便人们记忆和表达网站主题网页内容uri-uniform-resource-identifier-统一资源定位符urluniform-resource-locator">网站URL:即网址,方便人们记忆和表达网站主题网页内容URI( Uniform Resource Identifier ).统一资源定位符URL(Uniform Resource Locator)</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image41.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.38916666666666666in”}</p>
+</blockquote>
+
+<ul>
+  <li>通过DNS解析得到ip地址进行传输</li>
+</ul>
+
+<h3 id="1请求和响应getpost">1.请求和响应:GET/POST</h3>
+
+<ul>
+  <li>请求/GET</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image42.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.48573490813648296in”}</p>
+</blockquote>
+
+<ul>
+  <li>响应/POST</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image43.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3176596675415573in”}</p>
+</blockquote>
+
+<h3 id="逐渐发明的技术">逐渐发明的技术:</h3>
+
+<ul>
+  <li>1.持久化链接HTTP keep-alive /presistent connection下层由TCP保持连接</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image44.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6050874890638671in”}</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image45.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8667607174103238in”}</p>
+</blockquote>
+
+<ul>
+  <li>2.管线化/pipeline/ 对比并发来理解 concurrent/ 并发 concurrency
+    <blockquote>
+      <p>parallel /并行 parallelism即AIO 异步IO ,可以是非阻塞式的</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image46.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5295505249343833in”}</p>
+</blockquote>
+
+<ul>
+  <li>3.使用Cookie的状态管理,C/S端保存C端的信息.下次S端认识C端个人信息</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image47.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5213374890638671in”}</p>
+
+  <p>• 对比session</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image48.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6209120734908136in”}</p>
+
+  <p>• session本质是一个map且线程安全,支持并发</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image49.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2912817147856518in”}</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image50.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.1022594050743657in”}</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image51.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2110411198600175in”}</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image52.png" alt="desc" />{width=”1.968503937007874in”
+height=”8.710192475940508e-2in”}</p>
+
+  <p>• session使用:</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image53.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.26272090988626423in”}</p>
+
+  <p>• 以及还有redis使用(服务器端)</p>
+</blockquote>
+
+<h3 id="http概览1本质是在进行文本传输2双方需要解析器interpreter3共同约定好语法语义">HTTP概览1.本质是在进行文本传输2.双方需要解析器(Interpreter)3.共同约定好语法语义</h3>
+
+<ul>
+  <li>报文结构</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image54.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.012840113735783in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image55.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.7964173228346456in”}</p>
+</blockquote>
+
+<ul>
+  <li>状态码</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image56.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6261373578302712in”}</p>
+</blockquote>
+
+<ul>
+  <li>网关</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image57.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4240244969378828in”}</p>
+
+  <p>• 是否不必存在?因为都可以通过后端调用?</p>
+</blockquote>
+
+<h3 id="https">HTTPS</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image58.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.17485236220472442in”}</p>
+</blockquote>
+
+<ul>
+  <li>原因</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image59.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8195231846019247in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image60.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.20669291338582677in”}</p>
+</blockquote>
+
+<ul>
+  <li>SSL（Secure Socket Layer，安全套接层）</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image61.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.271956474190726in”}</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>对称加密:共享秘钥</p>
+  </li>
+  <li>
+    <p>非对称加密:1.公钥</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>• 是否是hash(private key ) 然后得到 pub key?</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image62.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3869006999125109in”}</p>
+
+  <p>• 子主题 2</p>
+</blockquote>
+
+<ul>
+  <li>证书</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image63.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5365660542432196in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image64.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4055282152230971in”}</p>
+</blockquote>
+
+<ul>
+  <li>TLS（Transport Layer Security，安全层传输协议）</li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+</blockquote>
+
+<ul>
+  <li>要解决的问题</li>
+</ul>
+
+<blockquote>
+  <p>• 1.确定双方身份</p>
+
+  <p>• 2.确定线路安全:可以被偷听,但是无法解析即可</p>
+
+  <p>• 子主题 3</p>
+</blockquote>
+
+<h3 id="http-协议演化1--2---3proxy-evolve">HTTP 协议演化1-&gt; 2 -&gt; 3proxy evolve</h3>
+
+<ul>
+  <li>youtube:
+    <blockquote>
+      <p>todohttps://www.youtube.com/watch?v=a-sBfyiXysI&amp;ab_channel=ByteByteGo</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p>• 子主题 1</p>
+</blockquote>
+
+<ul>
+  <li>子主题 2</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image65.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8489009186351706in”}</p>
+
+  <p>• 1</p>
+
+  <p>• 每次都要建立连接</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image66.png" alt="desc" />{width=”1.968503937007874in”
+height=”3.137409230096238in”}</p>
+
+  <p>• 1.1</p>
+
+  <p>• keep-alive 和 pipeline 同样重要的两个特性</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image67.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7080774278215223in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image68.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0428160542432197in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image69.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3828051181102363in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image70.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.2541393263342084in”}</p>
+
+  <p>• 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image71.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8051531058617672in”}</p>
+
+  <p>• 3</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image72.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.3624114173228346in”}</p>
+
+  <p>• 在设备切换网络即换了IP层网路时,不用反复重建TCP连接</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image73.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6881321084864391in”}</p>
+</blockquote>
+
+<h2 id="dns-dns-list-paragraph">DNS {#dns .list-paragraph}</h2>
+
+<h3 id="dns-abstractioninput-urloutput-ip">DNS abstraction:input: urloutput: ip</h3>
+
+<ul>
+  <li>注册一个DNS解析即是输入 K V 值即可</li>
+</ul>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image74.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8321423884514436in”}</p>
+</blockquote>
+
+<h3 id="是否实现就是一个hashtableyes至少在分布式以下的层级如一个isp提供商整个cn的dns是用的hashtable">是否实现就是一个HashTable?yes至少在分布式以下的层级如一个ISP提供商,整个cn的DNS是用的HashTable</h3>
+
+<ul>
+  <li>K:name -&gt; V: ip</li>
+</ul>
+
+<h3 id="分层的且分布式的">分层的且分布式的</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image75.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5005380577427821in”}</p>
+</blockquote>
+
+<h2 id="ftp-ftp-list-paragraph">FTP {#ftp .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image76.png" alt="desc" />{width=”1.968503937007874in”
+height=”3.2484055118110238in”}</p>
+</blockquote>
+
+<h2 id="dhcp-dhcp-list-paragraph">DHCP {#dhcp .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image77.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.5272812773403324in”}</p>
+</blockquote>
+
+<h2 id="gateway网关-gateway网关-list-paragraph">gateway网关 {#gateway网关 .list-paragraph}</h2>
+
+<p><img src="./myMediaFolder/media/template_document.xml_image78.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h3 id="what-is-network-proxy">what is network proxy?</h3>
+
+<ul>
+  <li>1.保护2.分流两者同样重要</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image79.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6723950131233596in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 2</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image80.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5376968503937007in”}</p>
+</blockquote>
+
+<h3 id="foward-proxy">foward proxy</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image81.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2927952755905512in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 2</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image82.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0637051618547682in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 3</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image83.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.3692246281714784in”}</p>
+</blockquote>
+
+<h3 id="reserve-proxy">reserve proxy</h3>
+
+<ul>
+  <li>子主题 1</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image84.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.6199726596675414in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 2</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image85.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.545136701662292in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 3</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image86.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.17833114610673667in”}</p>
+</blockquote>
+
+<h1 id="3-传输层如tcp">3 传输层:如TCP</h1>
+
+<p><img src="./myMediaFolder/media/template_document.xml_image87.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h2 id="概览-概览-3-list-paragraph">概览 {#概览-3 .list-paragraph}</h2>
+
+<h3 id="1拆包2解决传输包问题-1丢包-2误码-3包顺序错误">1.拆包2.解决传输包问题: 1.丢包 2.误码 3.包顺序错误</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image88.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9630096237970254in”}</p>
+</blockquote>
+
+<h2 id="端口-port-端口-port-list-paragraph">端口 port {#端口-port .list-paragraph}</h2>
+
+<h3 id="为什么需要端口">为什么需要端口?</h3>
+
+<ul>
+  <li>总结:统一一台电脑上多个程序发送的网络数据归类之,不至于混淆不同程序发送的内容</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image89.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5347692475940508in”}</p>
+</blockquote>
+
+<h3 id="端口号的分配">端口号的分配</h3>
+
+<ul>
+  <li>一般写网络程序可以考虑用登记端口号或者短暂端口号</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image90.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.3843821084864392in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image91.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6037084426946632in”}</p>
+</blockquote>
+
+<h2 id="ip-的复用分用-ip-的复用分用-list-paragraph">IP 的复用/分用 {#ip-的复用分用 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image92.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.63253280839895in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image93.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.631596675415573in”}</p>
+</blockquote>
+
+<h2 id="udptcp对比-udptcp对比-list-paragraph">UDP/TCP对比 {#udptcp对比 .list-paragraph}</h2>
+
+<h3 id="图">图</h3>
+
+<ul>
+  <li>直接,快速,简洁</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image94.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9864785651793526in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image95.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9324496937882765in”}</p>
+</blockquote>
+
+<ul>
+  <li>TCP有缓存控制(首发双方都有,互相通信查看对方的缓存情况)</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image96.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9409492563429571in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image97.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.984251968503937in”}</p>
+</blockquote>
+
+<ul>
+  <li>是不是校验和也可以不要了?更快.或者是不解析校验和</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image98.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8746314523184602in”}</p>
+</blockquote>
+
+<ul>
+  <li>从信息熵(Info Entropy)方面来看.UDP更接近平均熵.更高效</li>
+</ul>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image99.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8356583552055993in”}</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image100.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5894181977252844in”}</p>
+</blockquote>
+
+<h2 id="udp-udp-list-paragraph">UDP {#udp .list-paragraph}</h2>
+
+<h3 id="concept">concept</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image101.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2824015748031496in”}</p>
+</blockquote>
+
+<h3 id="格式">格式</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image102.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.5603477690288714in”}</p>
+</blockquote>
+
+<h3 id="应用领域">应用领域</h3>
+
+<ul>
+  <li>如</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image103.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6244181977252843in”}</p>
+</blockquote>
+
+<h2 id="tcp-tcp-list-paragraph">TCP {#tcp .list-paragraph}</h2>
+
+<h3 id="concept-1">concept</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image104.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.398581583552056in”}</p>
+</blockquote>
+
+<ul>
+  <li>TCP是面向连接的、可靠的流协议。流就是指不间断的数据结构，
+    <blockquote>
+      <p>你可以把它想象成排水管道中的水流。</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="三报文握手概念">三报文握手概念</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image105.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2959897200349957in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image106.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6396751968503936in”}</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>为什么要三次握手?三次握手的目的是建立可靠的通信信道，说到通讯，简单来说就是数据的发送与接收，</p>
+  </li>
+  <li>
+    <p>而三次握手最主要的目的就是双方确认自己与对方的发送与接收是正常的。</p>
+  </li>
+  <li>
+    <p>第一次握手：Client 什么都不能确认；Server</p>
+
+    <blockquote>
+      <p>确认了对方发送正常，自己接收正常第二次握手：Client
+确认了：自己发送、接收正常，对方发送、接收正常；Server
+确认了：对方发送正常，自己接收正常第三次握手：Client
+确认了：自己发送、接收正常，对方发送、接收正常；Server
+确认了：自己发送、接收正常，对方发送、接收正常所以三次握手就能确认双方收发功能都正常，缺一不可</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>C端视角:自己的发送接收是否正常?S端的发送和接收是否正常?</p>
+  </li>
+  <li>
+    <p>S端视角:自己的发送接收是否正常?C端的发送和接收是否正常?</p>
+  </li>
+</ul>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image107.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7535958005249344in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image108.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.9025207786526683in”}</p>
+
+  <p>• 超时</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image109.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.8310389326334209in”}</p>
+</blockquote>
+
+<h3 id="四报文挥手">四报文挥手</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image110.png" alt="desc" />{width=”1.968503937007874in”
+height=”3.9532097550306213in”}</p>
+</blockquote>
+
+<h3 id="格式-1">格式</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image111.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.4582994313210849in”}</p>
+</blockquote>
+
+<ul>
+  <li>子主题 4</li>
+</ul>
+
+<h3 id="ackpositive-acknowledgement">ACKPositive Acknowledgement</h3>
+
+<ul>
+  <li>
+    <p>NACK: Negative Acknowledgement</p>
+  </li>
+  <li>
+    <p>ACK</p>
+  </li>
+</ul>
+
+<h3 id="流量控制">流量控制</h3>
+
+<ul>
+  <li>outline</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image112.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5368646106736658in”}</p>
+</blockquote>
+
+<ul>
+  <li>前提</li>
+</ul>
+
+<blockquote>
+  <p>• 滑动窗口</p>
+
+  <p>• 即指定变长的传输包组合量</p>
+
+  <p>•
+https://www.bilibili.com/video/BV1c4411d7jb?p=60&amp;spm_id_from=pageDriver&amp;vd_source=d074d0576b6cbd56f8b807d99f34ed18p60</p>
+</blockquote>
+
+<ul>
+  <li>例子图</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image113.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9770505249343832in”}</p>
+</blockquote>
+
+<h3 id="阻塞控制">阻塞控制</h3>
+
+<ul>
+  <li>概念</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image114.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0967377515310586in”}</p>
+</blockquote>
+
+<h1 id="2-网络层ip">2 网络层:IP</h1>
+
+<p><img src="./myMediaFolder/media/template_document.xml_image115.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h2 id="ip数据报格式-ip数据报格式-list-paragraph">ip数据报格式 {#ip数据报格式 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image116.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1767213473315836in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image117.png" alt="desc" />{width=”1.968503937007874in”
+height=”2.615774278215223in”}</p>
+</blockquote>
+
+<h3 id="ip地址">ip地址</h3>
+
+<ul>
+  <li>组成</li>
+</ul>
+
+<blockquote>
+  <p>• 由4个8位bit组成</p>
+</blockquote>
+
+<h2 id="概览-概览-4-list-paragraph">概览 {#概览-4 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image118.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9332874015748032in”}</p>
+</blockquote>
+
+<h3 id="arp最为重要和根本解决路线选择问题">ARP最为重要和根本:解决路线选择问题</h3>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image119.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.968503937007874in”}</p>
+</blockquote>
+
+<h2 id="路由arp-路由arp-list-paragraph">路由ARP {#路由arp .list-paragraph}</h2>
+
+<h3 id="简单的静态路由">简单的静态路由</h3>
+
+<h3 id="动态路由选择">动态路由选择</h3>
+
+<ul>
+  <li>Internet的路由选择协议</li>
+</ul>
+
+<blockquote>
+  <p>• goal</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image120.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9308639545056868in”}</p>
+
+  <p>• impl</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image121.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8130129046369203in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image122.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8645614610673665in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p>•
+一种是用表的报文.查表然后转发给下个地址一种是更新表的报文.则更新表,然后可能发给下个路由器让他也更新路由表</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image123.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9896183289588801in”}</p>
+
+  <p>• RIP最重要,核心的路径选择权重:
+距离最短?容量最大?有时不可兼得所以要根据上层提出的需求选择链路如做FTP选择的路线做UDP实时游戏选择的路线</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image124.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.98293416447944in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 以链路点数量作为唯一权重</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image125.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1171828521434821in”}</p>
+
+  <p>• 自动负载均衡</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image126.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9770680227471567in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image127.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.965323709536308in”}</p>
+
+  <p>• 例子</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image128.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0094247594050743in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image129.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7585553368328959in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image130.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0520199037620297in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image131.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8953324584426947in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image132.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7229111986001749in”}</p>
+
+  <p>• 子主题 5</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image133.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0438046806649168in”}</p>
+
+  <p>• 子主题 6</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image134.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.110084208223972in”}</p>
+
+  <p>• OSPF</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image135.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9094149168853893in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image136.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0508880139982502in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image137.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1642224409448818in”}</p>
+
+  <p>• 子主题 4</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image138.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1035553368328959in”}</p>
+
+  <p>• beautiful!</p>
+
+  <p>• 抽象为图,然后计算加权的最短路径;用来构建路由表</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image139.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0620669291338583in”}</p>
+
+  <p>• 子主题 6</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image140.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9210629921259843in”}</p>
+
+  <p>• 子主题 7</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image141.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9266371391076116in”}</p>
+
+  <p>• 子主题 8</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image142.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9544258530183727in”}</p>
+
+  <p>• BGP</p>
+
+  <p>• 把洪泛限制在Area中</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image143.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9378357392825897in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image144.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8695374015748032in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p>• zzz</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image145.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8508114610673666in”}</p>
+
+  <p>• 子主题 4</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image146.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.5215496500437445in”}</p>
+
+  <p>• 子主题 5</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image147.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2328521434820647in”}</p>
+
+  <p>• IPv4数据报格式简称ip数据报</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image148.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.2583869203849518in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image149.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6410214348206474in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image150.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4962849956255468in”}</p>
+
+  <p>• 为什么DF位不在MF位前面.要先能分片,再考虑MF分片情况呀!</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image151.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4843558617672791in”}</p>
+
+  <p>• 直接整成无限大.污染整个网络.当然不可能.有检查最大数机制的哈哈</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image152.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.41720581802274714in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image153.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9412718722659668in”}</p>
+
+  <p>• 子主题 5</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image154.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6309820647419072in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 6</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image155.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.4968066491688539in”}</p>
+
+  <p>• 子主题 7</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image156.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.18202318460192476in”}</p>
+
+  <p>• 分片例子</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image157.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.995323709536308in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image158.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9944991251093613in”}</p>
+
+  <p>• ICMPInternet Control Message Protocol</p>
+
+  <p>• 子主题 6</p>
+
+  <p>• 子主题 3</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image159.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8098928258967629in”}</p>
+
+  <p>• 子主题 4</p>
+
+  <p>• 也可能是H2满了</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image160.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.7942180664916886in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image161.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9211187664041994in”}</p>
+
+  <p>• 子主题 5</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image162.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.832069116360455in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image163.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8001618547681539in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image164.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8200382764654418in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image165.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8281430446194226in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image166.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6001115485564305in”}</p>
+
+  <p>• app</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image167.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9459317585301837in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image168.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.957846675415573in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image169.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1659919072615923in”}</p>
+
+  <p>• 原理.设置1到X的TTL来获取路径上面的每一个路由器</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image170.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.8652766841644794in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image171.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9467410323709536in”}</p>
+
+  <p>• 子主题 4</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image172.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.066003937007874in”}</p>
+
+  <p>• VPN</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image173.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0348764216972879in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image174.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9958792650918635in”}</p>
+
+  <p>• 子主题 2</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image175.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.0301706036745406in”}</p>
+
+  <p>• 子主题 1</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image176.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9678937007874016in”}</p>
+
+  <p>• 子主题 3</p>
+
+  <p>• 子主题 1</p>
+
+  <p>• NAT</p>
+</blockquote>
+
+<ul>
+  <li>net_gate即net_route</li>
+</ul>
+
+<blockquote>
+  <p>• 早期用的网关.现代采用路由 术语</p>
+</blockquote>
+
+<h3 id="对比">对比</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image177.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.6372211286089239in”}</p>
+</blockquote>
+
+<h1 id="1-链路层物理层">1 链路层,物理层</h1>
+
+<h2 id="概览-概览-5-list-paragraph">概览 {#概览-5 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image178.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9383912948381452in”}</p>
+</blockquote>
+
+<h2 id="mac地址media-access-control-address-mac地址media-access-control-address-list-paragraph">MAC地址Media Access Control Address {#mac地址media-access-control-address .list-paragraph}</h2>
+
+<h3 id="由6个8位bit组成48位">由6个8位bit组成(48位)</h3>
+
+<h2 id="arpaddress-resolution-protocol负责辅助mac地址如查找-arpaddress-resolution-protocol负责辅助mac地址如查找-list-paragraph">ARP:Address Resolution Protocol负责辅助mac地址,如查找 {#arpaddress-resolution-protocol负责辅助mac地址如查找 .list-paragraph}</h2>
+
+<h3 id="图-1">图</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image179.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.921634951881015in”}</p>
+</blockquote>
+
+<h2 id="网络接口以太网驱动-网络接口以太网驱动-list-paragraph">网络接口,以太网驱动 {#网络接口以太网驱动 .list-paragraph}</h2>
+
+<h3 id="ethernet">Ethernet</h3>
+
+<ul>
+  <li>校验的设计</li>
+</ul>
+
+<blockquote>
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image180.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.2703357392825897in”}</p>
+</blockquote>
+
+<h2 id="电路交换-电路交换-list-paragraph">电路交换 {#电路交换 .list-paragraph}</h2>
+
+<h3 id="概念">概念</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image181.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.1037281277340332in”}</p>
+</blockquote>
+
+<h2 id="分组交换-分组交换-list-paragraph">分组交换 {#分组交换 .list-paragraph}</h2>
+
+<h3 id="概念-1">概念</h3>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image182.png" alt="desc" />{width=”1.968503937007874in”
+height=”1.162742782152231in”}</p>
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image183.png" alt="desc" />{width=”1.6633858267716535in”
+height=”0.7874015748031497in”}</p>
+
+  <p>•</p>
+
+  <p><img src="./myMediaFolder/media/template_document.xml_image184.png" alt="desc" />{width=”1.1811023622047243in”
+height=”0.8366141732283464in”}</p>
+</blockquote>
+
+<h2 id="各种电路交换的对比-各种电路交换的对比-list-paragraph">各种电路交换的对比 {#各种电路交换的对比 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image185.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.9069903762029746in”}</p>
+</blockquote>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image186.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.44291338582677164in”}</p>
+</blockquote>
+
+<h2 id="概览-概览-6-list-paragraph">概览 {#概览-6 .list-paragraph}</h2>
+
+<p>###</p>
+
+<blockquote>
+  <p><img src="./myMediaFolder/media/template_document.xml_image187.png" alt="desc" />{width=”1.968503937007874in”
+height=”0.942843394575678in”}</p>
+</blockquote>
+
+<h2 id="功能提供比特流-功能提供比特流-list-paragraph">功能:提供比特流 {#功能提供比特流 .list-paragraph}</h2>
+
+<h3 id="如何提供">如何提供?</h3>
+
+<ul>
+  <li>时钟高低电压</li>
+</ul>
+
+<h1 id="应用这些知识">应用这些知识</h1>
+
+<p><img src="./myMediaFolder/media/template_document.xml_image188.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h2 id="natnetwork-address-translation-traverse内网穿透打洞-natnetwork-address-translation-traverse内网穿透打洞-list-paragraph">NAT(Network Address Translation) traverse内网穿透,打洞 {#natnetwork-address-translation-traverse内网穿透打洞 .list-paragraph}</h2>
+
+<p><img src="./myMediaFolder/media/template_document.xml_image189.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h3 id="应用">应用:</h3>
+
+<ul>
+  <li>异地访问局域网NAT中的电脑.因为大多数个人没有ipv4,有也不固定.是一堆人用一个ipv4</li>
+</ul>
+
+<h2 id="爬虫scrapy-爬虫scrapy-list-paragraph">爬虫scrapy {#爬虫scrapy .list-paragraph}</h2>
+
+<h2 id="cnatdap-cnatdap-list-paragraph">&lt;&lt;CNATDAP&gt;&gt; {#cnatdap .list-paragraph}</h2>
+
+<p><img src="./myMediaFolder/media/template_document.xml_image190.png" alt="desc" />{width=”0.23622047244094488in”
+height=”0.23622047244094488in”}</p>
+
+<h3 id="wireshark-lab">wireshark lab</h3>
+
+<h3 id="socket-programming-lab">socket programming lab</h3>
+
+
+<h3 class="archive__subtitle">Recent posts</h3>
+
+
+
+
+<div class="entries-list">
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/concpets_of_problem_solving/" rel="permalink">Concepts of Problem Solving
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Descartes Scientific Methodology
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software_isolation/" rel="permalink">software_isolation
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Why: Some app is doing unnecessary things or even steal privacy.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/factfulness/" rel="permalink">Factfulness
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Work-Remote/" rel="permalink">Work Remote - Even Cross Country
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">ref: https://space.bilibili.com/4848323
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/init%20blog-website/blog-under-construction/" rel="permalink">blog-under-construction
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Bugs to fix
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software-architect/software-architect/" rel="permalink">Software Architect
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">What is Software Architect
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blockchain/RPC/" rel="permalink">Remote Procedure Call
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">RPC
+local procedure call to RPC
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cg/Computer-Graphics/" rel="permalink">Computer Graphics
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Intro
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/books/books/" rel="permalink">读书的Take Home Message
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">最近读书收获的 Take Home Message（better into 4 mem-chunks）：
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/project/project-oriented/" rel="permalink">解决project上问题的轻重缓急
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">业务驱动开发，驱动学习。
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/cs%20fundamentals/CN/" rel="permalink">Computer Network
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Computer Network
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/personal-growth/%E6%97%A5%E6%B8%85%E5%91%A8%E7%BB%93/" rel="permalink">日清周结
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">每日的计划和执行：
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/The-Pragmatic-Programmer/" rel="permalink">The Pragmatic Programmer
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">The Pragmatic Programmer
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/personal-growth/Live-with-difficult-and-fear/" rel="permalink">Live with diffcult
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Descartes’ scientific methodology, which is a useful way to approach complex problems and seek the truth.
+However, I understand that sometimes you may encoun...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Entropy__The-Most-Misunderstood-Concept-in-Physics/" rel="permalink">Entropy: The Most Misunderstood Concept in Physics
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">url: https://youtu.be/DxL2HoqLbyA
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/My-outlook-on-values/" rel="permalink">My outlook on values
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">年轻永远是最宝贵的财富
+</p>
+  </article>
+</div>
+
+  
+</div>
+
+
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 白桃乌龙. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
